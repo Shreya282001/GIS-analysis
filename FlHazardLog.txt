@@ -1,0 +1,147 @@
+2025-04-19 19:32:31.085 -04:00 [INF] 2025/04/19 19:32:31.085 : ***********************************************************************
+2025-04-19 19:32:31.087 -04:00 [INF] 2025/04/19 19:32:31.087 :                    CALCULATE DEM COORDS
+2025-04-19 19:32:31.089 -04:00 [INF] 2025/04/19 19:32:31.089 : ***********************************************************************
+2025-04-19 19:32:31.091 -04:00 [INF] 2025/04/19 19:32:31.091 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 19:32:31.093 -04:00 [INF] 2025/04/19 19:32:31.093 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 19:32:31.104 -04:00 [INF] 2025/04/19 19:32:31.104 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 19:32:31.105 -04:00 [INF] 2025/04/19 19:32:31.105 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 19:32:31.106 -04:00 [INF] 2025/04/19 19:32:31.106 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 19:32:31.163 -04:00 [INF] 2025/04/19 19:32:31.163 hzFlAnWorkFlow.hzFlAnDEMCoordCalculator.CalculateDemCoords: Validated required feature classes
+2025-04-19 19:32:31.177 -04:00 [INF] 2025/04/19 19:32:31.177 hzFlAnWorkFlow.hzFlAnDEMCoordCalculator.RiverineRequiredPoly: Custom region buffer of 2000 will be used.
+2025-04-19 19:32:31.229 -04:00 [INF] 2025/04/19 19:32:31.229 Module Common Geodatabase(hzFlCommon.modGeodatabase.GeometryToFeatureClass): Feature class: SRBoundary
+2025-04-19 19:32:36.002 -04:00 [INF] 2025/04/19 19:32:36.002 Module Common Geodatabase(hzFlCommon.modGeodatabase.GeometryToFeatureClass): Feature class: RegSheds
+2025-04-19 19:32:37.174 -04:00 [INF] 2025/04/19 19:32:37.174 Module Common Geodatabase(hzFlCommon.modGeodatabase.GeometryToFeatureClass): Feature class: RivReqPoly
+2025-04-19 19:32:37.935 -04:00 [INF] 2025/04/19 19:32:37.935 Module Common Geodatabase(hzFlCommon.modGeodatabase.GeometryToFeatureClass): Feature class: ReqDEMPolygon
+2025-04-19 19:32:38.941 -04:00 [INF] 2025/04/19 19:32:38.941 hzFlAnWorkFlow.hzFlAnDEMCoordCalculator.CalculateDemCoords: Calculated required DEM polygon
+2025-04-19 19:32:38.968 -04:00 [INF] 2025/04/19 19:32:38.968 hzFlAnWorkFlow.hzFlAnDEMCoordCalculator.CalculateDemCoords: Buffered polygon by 500 feet
+2025-04-19 19:32:38.973 -04:00 [INF] 2025/04/19 19:32:38.973 hzFlAnWorkFlow.hzFlAnDEMCoordCalculator.CalculateDemCoords: Projected polygon
+2025-04-19 19:32:38.975 -04:00 [INF] 2025/04/19 19:32:38.975 hzFlAnWorkFlow.hzFlAnDEMCoordCalculator.CalculateDemCoords: Computed bounding coordinates
+2025-04-19 19:32:39.011 -04:00 [INF] 2025/04/19 19:32:39.011 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n39w085/'
+2025-04-19 19:32:39.409 -04:00 [INF] 2025/04/19 19:32:39.409 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n40w085/'
+2025-04-19 19:32:39.492 -04:00 [INF] 2025/04/19 19:32:39.492 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n41w085/'
+2025-04-19 19:32:39.571 -04:00 [INF] 2025/04/19 19:32:39.571 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n39w086/'
+2025-04-19 19:32:39.649 -04:00 [INF] 2025/04/19 19:32:39.649 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n40w086/'
+2025-04-19 19:32:39.729 -04:00 [INF] 2025/04/19 19:32:39.729 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n41w086/'
+2025-04-19 19:32:39.810 -04:00 [INF] 2025/04/19 19:32:39.810 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n39w087/'
+2025-04-19 19:32:39.901 -04:00 [INF] 2025/04/19 19:32:39.901 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n40w087/'
+2025-04-19 19:32:39.981 -04:00 [INF] 2025/04/19 19:32:39.981 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n41w087/'
+2025-04-19 19:32:40.146 -04:00 [INF] 2025/04/19 19:32:40.146 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n39w085/'
+2025-04-19 19:32:40.228 -04:00 [INF] 2025/04/19 19:32:40.228 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n40w085/'
+2025-04-19 19:32:40.309 -04:00 [INF] 2025/04/19 19:32:40.309 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n41w085/'
+2025-04-19 19:32:40.388 -04:00 [INF] 2025/04/19 19:32:40.388 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n39w086/'
+2025-04-19 19:32:40.467 -04:00 [INF] 2025/04/19 19:32:40.467 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n40w086/'
+2025-04-19 19:32:40.546 -04:00 [INF] 2025/04/19 19:32:40.546 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n41w086/'
+2025-04-19 19:32:40.626 -04:00 [INF] 2025/04/19 19:32:40.626 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n39w087/'
+2025-04-19 19:32:40.706 -04:00 [INF] 2025/04/19 19:32:40.706 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n40w087/'
+2025-04-19 19:32:40.788 -04:00 [INF] 2025/04/19 19:32:40.788 ExtractNEDLinks: USGS TNM request 'https://prd-tnm.s3.amazonaws.com/?delimiter=/&prefix=StagedProducts/Elevation/1/TIFF/current/n41w087/'
+2025-04-19 19:33:10.663 -04:00 [INF] 2025/04/19 19:33:10.663 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloading URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n39w085/USGS_1_n39w085.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n39w085.tif'
+2025-04-19 19:33:17.579 -04:00 [INF] 2025/04/19 19:33:17.579 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloaded URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n39w085/USGS_1_n39w085.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n39w085.tif'
+2025-04-19 19:33:17.585 -04:00 [INF] 2025/04/19 19:33:17.585 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloading URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n40w085/USGS_1_n40w085.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n40w085.tif'
+2025-04-19 19:33:20.759 -04:00 [INF] 2025/04/19 19:33:20.759 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloaded URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n40w085/USGS_1_n40w085.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n40w085.tif'
+2025-04-19 19:33:20.764 -04:00 [INF] 2025/04/19 19:33:20.764 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloading URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n41w085/USGS_1_n41w085.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n41w085.tif'
+2025-04-19 19:33:23.723 -04:00 [INF] 2025/04/19 19:33:23.723 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloaded URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n41w085/USGS_1_n41w085.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n41w085.tif'
+2025-04-19 19:33:23.727 -04:00 [INF] 2025/04/19 19:33:23.727 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloading URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n39w086/USGS_1_n39w086.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n39w086.tif'
+2025-04-19 19:33:27.026 -04:00 [INF] 2025/04/19 19:33:27.026 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloaded URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n39w086/USGS_1_n39w086.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n39w086.tif'
+2025-04-19 19:33:27.030 -04:00 [INF] 2025/04/19 19:33:27.030 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloading URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n40w086/USGS_1_n40w086.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n40w086.tif'
+2025-04-19 19:33:29.928 -04:00 [INF] 2025/04/19 19:33:29.928 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloaded URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n40w086/USGS_1_n40w086.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n40w086.tif'
+2025-04-19 19:33:29.932 -04:00 [INF] 2025/04/19 19:33:29.932 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloading URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n41w086/USGS_1_n41w086.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n41w086.tif'
+2025-04-19 19:33:33.094 -04:00 [INF] 2025/04/19 19:33:33.094 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloaded URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n41w086/USGS_1_n41w086.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n41w086.tif'
+2025-04-19 19:33:33.108 -04:00 [INF] 2025/04/19 19:33:33.108 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloading URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n39w087/USGS_1_n39w087.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n39w087.tif'
+2025-04-19 19:33:36.223 -04:00 [INF] 2025/04/19 19:33:36.223 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloaded URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n39w087/USGS_1_n39w087.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n39w087.tif'
+2025-04-19 19:33:36.228 -04:00 [INF] 2025/04/19 19:33:36.228 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloading URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n40w087/USGS_1_n40w087.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n40w087.tif'
+2025-04-19 19:33:39.890 -04:00 [INF] 2025/04/19 19:33:39.890 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloaded URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n40w087/USGS_1_n40w087.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n40w087.tif'
+2025-04-19 19:33:39.894 -04:00 [INF] 2025/04/19 19:33:39.894 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloading URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n41w087/USGS_1_n41w087.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n41w087.tif'
+2025-04-19 19:33:43.105 -04:00 [INF] 2025/04/19 19:33:43.105 hzFlVbDialogs.frmDemExtent.SaveDEM: Downloaded URL: 'https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/1/TIFF/current/n41w087/USGS_1_n41w087.tif' and path: 'C:\HazusData\HazardInput\\DEM\Bartholomew_1\USGS_1_n41w087.tif'
+2025-04-19 19:34:04.334 -04:00 [INF] 2025/04/19 19:34:04.334 : ***********************************************************************
+2025-04-19 19:34:04.336 -04:00 [INF] 2025/04/19 19:34:04.336 :                             USER DATA
+2025-04-19 19:34:04.338 -04:00 [INF] 2025/04/19 19:34:04.338 : ***********************************************************************
+2025-04-19 19:34:04.351 -04:00 [INF] 2025/04/19 19:34:04.351 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 19:34:04.353 -04:00 [INF] 2025/04/19 19:34:04.353 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 19:34:04.355 -04:00 [INF] 2025/04/19 19:34:04.355 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 19:34:04.357 -04:00 [INF] 2025/04/19 19:34:04.357 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 19:34:04.358 -04:00 [INF] 2025/04/19 19:34:04.358 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 19:34:04.403 -04:00 [INF] 2025/04/19 19:34:04.403 hzFlVbDialogs.frmUserData.OnOK: Validating DEMs...
+2025-04-19 19:34:04.426 -04:00 [INF] 2025/04/19 19:34:04.426 hzFlVbDialogs.frmUserData.OnOK: All DEMs are valid!
+2025-04-19 19:34:07.750 -04:00 [INF] 2025/04/19 19:34:07.750 : -----------------------------------------------------------------------
+2025-04-19 19:34:07.752 -04:00 [INF] 2025/04/19 19:34:07.752 :                          MosaicDEMs
+2025-04-19 19:34:07.755 -04:00 [INF] 2025/04/19 19:34:07.755 : -----------------------------------------------------------------------
+2025-04-19 19:34:07.757 -04:00 [INF] 2025/04/19 19:34:07.757 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 19:34:07.760 -04:00 [INF] 2025/04/19 19:34:07.760 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 19:34:07.764 -04:00 [INF] 2025/04/19 19:34:07.764 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 19:34:07.765 -04:00 [INF] 2025/04/19 19:34:07.765 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 19:34:07.767 -04:00 [INF] 2025/04/19 19:34:07.767 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 19:34:22.775 -04:00 [INF] 2025/04/19 19:34:22.775 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs2NewRaster: A new mosaic DEM was created at path: C:\HazusData\Regions\Bartholomew_1\mosaic_dem
+2025-04-19 19:34:22.780 -04:00 [INF] 2025/04/19 19:34:22.780 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Processing input DEMs...
+2025-04-19 19:34:22.787 -04:00 [INF] 2025/04/19 19:34:22.787 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Through processing input DEMs
+2025-04-19 19:34:22.791 -04:00 [INF] 2025/04/19 19:34:22.791 hzFlAnWorkFlow.hzFlAnDEMCoordCalculator.RiverineRequiredPoly: Custom region buffer of 2000 will be used.
+2025-04-19 19:34:22.852 -04:00 [INF] 2025/04/19 19:34:22.852 Module Common Geodatabase(hzFlCommon.modGeodatabase.GeometryToFeatureClass): Feature class: SRBoundary
+2025-04-19 19:34:23.022 -04:00 [INF] 2025/04/19 19:34:23.022 Module Common Geodatabase(hzFlCommon.modGeodatabase.GeometryToFeatureClass): Feature class: RegSheds
+2025-04-19 19:34:24.211 -04:00 [INF] 2025/04/19 19:34:24.211 Module Common Geodatabase(hzFlCommon.modGeodatabase.GeometryToFeatureClass): Feature class: RivReqPoly
+2025-04-19 19:34:25.262 -04:00 [INF] 2025/04/19 19:34:25.262 hzFlAnWorkFlow.hzFlANMergeDEMs.ValidMergedDEMValues: Entering...
+2025-04-19 19:34:25.271 -04:00 [INF] 2025/04/19 19:34:25.271 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Entering for grid: mosaic
+2025-04-19 19:34:25.273 -04:00 [INF] 2025/04/19 19:34:25.273 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Path: C:\HazusData\Regions\Bartholomew_1\RegionDEM
+2025-04-19 19:34:50.488 -04:00 [INF] 2025/04/19 19:34:50.488 hzFlAnWorkFlow.hzFlANMergeDEMs.ValidMergedDEMValues: Leaving...
+2025-04-19 19:34:50.492 -04:00 [INF] 2025/04/19 19:34:50.492 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Validated merged DEM values
+2025-04-19 19:34:50.739 -04:00 [INF] 2025/04/19 19:34:50.739 Module Common Geodatabase(hzFlCommon.modGeodatabase.GeometryToFeatureClass): Feature class: ReqDEMPolygon
+2025-04-19 19:34:51.070 -04:00 [INF] 2025/04/19 19:34:51.070 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Starting merge...
+2025-04-19 19:34:51.072 -04:00 [INF] 2025/04/19 19:34:51.072 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Through merge
+2025-04-19 19:34:51.075 -04:00 [INF] 2025/04/19 19:34:51.075 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Converting DEM vertical units from meters to feet
+2025-04-19 19:34:51.089 -04:00 [INF] 2025/04/19 19:34:51.089 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Starting raster clipping
+2025-04-19 19:34:54.408 -04:00 [INF] 2025/04/19 19:34:54.408 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Through raster clipping
+2025-04-19 19:34:54.410 -04:00 [INF] 2025/04/19 19:34:54.410 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Starting raster projection
+2025-04-19 19:34:54.419 -04:00 [INF] 2025/04/19 19:34:54.419 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Through raster projection
+2025-04-19 19:34:54.421 -04:00 [INF] 2025/04/19 19:34:54.421 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Entering for grid: clipdem
+2025-04-19 19:34:54.423 -04:00 [INF] 2025/04/19 19:34:54.423 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Path: C:\HazusData\Regions\Bartholomew_1\RegionDEM
+2025-04-19 19:34:56.024 -04:00 [INF] 2025/04/19 19:34:56.024 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Starting the hillshade
+2025-04-19 19:34:58.830 -04:00 [INF] 2025/04/19 19:34:58.830 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Through the hillshade
+2025-04-19 19:34:58.832 -04:00 [INF] 2025/04/19 19:34:58.832 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Entering for grid: Hillshade
+2025-04-19 19:34:58.834 -04:00 [INF] 2025/04/19 19:34:58.834 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Path: C:\HazusData\Regions\Bartholomew_1\RegionDEM
+2025-04-19 19:35:00.114 -04:00 [INF] 2025/04/19 19:35:00.114 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Added DEM to the map
+2025-04-19 19:35:00.437 -04:00 [INF] 2025/04/19 19:35:00.437 hzFlAnWorkFlow.hzFlANMergeDEMs.MosaicDEMs: Deleted pre-existing riverine flow grids
+2025-04-19 19:35:00.450 -04:00 [INF] 2025/04/19 19:35:00.450 hzFlAnWorkFlow.hzFlANMergeDEMs.EntryPoint: Successfully constructed the study region DEM. Total time:  Hours: 0, Mins:00, Secs:52
+2025-04-19 19:35:34.656 -04:00 [INF] 2025/04/19 19:35:34.656 : ***********************************************************************
+2025-04-19 19:35:34.658 -04:00 [INF] 2025/04/19 19:35:34.658 :                        STREAM NETWORK
+2025-04-19 19:35:34.660 -04:00 [INF] 2025/04/19 19:35:34.660 : ***********************************************************************
+2025-04-19 19:35:34.662 -04:00 [INF] 2025/04/19 19:35:34.662 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 19:35:34.665 -04:00 [INF] 2025/04/19 19:35:34.665 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 19:35:34.667 -04:00 [INF] 2025/04/19 19:35:34.667 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 19:35:34.669 -04:00 [INF] 2025/04/19 19:35:34.669 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 19:35:34.670 -04:00 [INF] 2025/04/19 19:35:34.670 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 19:35:34.838 -04:00 [INF] 2025/04/19 19:35:34.838 hzFlAnNetwork.modDefineNetwork.OpenInputDatasets: Loaded DEM raster
+2025-04-19 19:35:34.873 -04:00 [INF] 2025/04/19 19:35:34.873 hzFlAnNetwork.modDefineNetwork.OpenInputDatasets: Loaded default stream network
+2025-04-19 19:35:34.907 -04:00 [INF] 2025/04/19 19:35:34.907 hzFlAnNetwork.modDefineNetwork.OpenInputDatasets: Loaded default watersheds
+2025-04-19 19:35:34.910 -04:00 [INF] 2025/04/19 19:35:34.910 hzFlAnNetwork.modDefineNetwork.OpenInputDatasets: Loaded study region boundary
+2025-04-19 19:35:34.915 -04:00 [INF] 2025/04/19 19:35:34.915 hzFlAnNetwork.modDefineNetwork.OpenInputDatasets: Loaded required DEM polygon
+2025-04-19 19:35:35.033 -04:00 [INF] 2025/04/19 19:35:35.033 hzFlAnNetwork.modDefineNetwork.CollectUnionSheds: Searching for intersecting watersheds...
+2025-04-19 19:35:35.878 -04:00 [INF] 2025/04/19 19:35:35.878 hzFlAnNetwork.modDefineNetwork.DefineNetwork: Saving intersecting watersheds...
+2025-04-19 19:35:36.081 -04:00 [INF] 2025/04/19 19:35:36.081 hzFlAnNetwork.modDefineNetwork.DefineNetwork: Saving intersecting default reaches...
+2025-04-19 19:35:36.435 -04:00 [INF] 2025/04/19 19:35:36.435 hzFlAnNetwork.modDefineNetwork.FillPits: Beginning sink fill
+2025-04-19 19:35:46.333 -04:00 [INF] 2025/04/19 19:35:46.333 hzFlAnNetwork.modDefineNetwork.FillPits: Through sink fill
+2025-04-19 19:35:46.336 -04:00 [INF] 2025/04/19 19:35:46.336 hzFlAnNetwork.modDefineNetwork.FillPits: Beginning flow direction
+2025-04-19 19:35:54.994 -04:00 [INF] 2025/04/19 19:35:54.994 hzFlAnNetwork.modDefineNetwork.FillPits: Through flow direction
+2025-04-19 19:35:54.997 -04:00 [INF] 2025/04/19 19:35:54.997 hzFlAnNetwork.modDefineNetwork.FillPits: Beginning flow accumulation
+2025-04-19 19:36:07.373 -04:00 [INF] 2025/04/19 19:36:07.373 hzFlAnNetwork.modDefineNetwork.FillPits: Through flow accumulation
+2025-04-19 19:36:07.375 -04:00 [INF] 2025/04/19 19:36:07.375 hzFlAnNetwork.modDefineNetwork.FillPits: Beginning flow length
+2025-04-19 19:37:13.325 -04:00 [INF] 2025/04/19 19:37:13.325 hzFlAnNetwork.modDefineNetwork.FillPits: Through flow length
+2025-04-19 19:37:13.335 -04:00 [INF] 2025/04/19 19:37:13.335 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: User Supplied Drainage area = 10sqmi ~= 43737 cell count
+2025-04-19 19:37:13.338 -04:00 [INF] 2025/04/19 19:37:13.338 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Maximum Calculated Drainage area (BEFORE shrinking by one cell)= 1141.054sqmi ~= 4990522 cell count
+2025-04-19 19:37:13.339 -04:00 [INF] 2025/04/19 19:37:13.339 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Minimum allowed by Hazus = 0.25sqmi ~= 1093 cell count
+2025-04-19 19:37:14.733 -04:00 [INF] 2025/04/19 19:37:14.733 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Starting the links grid
+2025-04-19 19:37:23.292 -04:00 [INF] 2025/04/19 19:37:23.292 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Through the links grid
+2025-04-19 19:37:23.294 -04:00 [INF] 2025/04/19 19:37:23.294 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Building the watershed grid
+2025-04-19 19:37:35.482 -04:00 [INF] 2025/04/19 19:37:35.482 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Through the watershed grid
+2025-04-19 19:37:35.766 -04:00 [INF] 2025/04/19 19:37:35.766 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Converted the watersheds to vector
+2025-04-19 19:37:38.236 -04:00 [INF] 2025/04/19 19:37:38.236 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Shrunk the links raster
+2025-04-19 19:37:38.238 -04:00 [INF] 2025/04/19 19:37:38.238 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Starting stream to feature
+2025-04-19 19:37:38.842 -04:00 [INF] 2025/04/19 19:37:38.842 hzFlAnNetwork.modDefineNetwork.ThresholdNetwork: Through stream to feature
+2025-04-19 19:37:41.980 -04:00 [INF] 2025/04/19 19:37:41.980 hzFlAnNetwork.modDefineNetwork.ClipNetwork: Delete Set Count: 69
+2025-04-19 19:38:08.160 -04:00 [INF] 2025/04/19 19:38:08.160 OpenGeodatabaseFClass: *****Leaving stream network
+2025-04-19 19:38:08.175 -04:00 [INF] 2025/04/19 19:38:08.175 hzFlAnNetwork.hzFlAnNetworkLauncher.EntryPoint: Successfully delineated reaches. Total time:  Hours: 0, Mins:02, Secs:33
+2025-04-19 19:38:29.872 -04:00 [INF] 2025/04/19 19:38:29.872 hzFlAnWorkFlow.hzFlStudyCaseNew.DoStudyCaseNew: *****Beginning study case new
+2025-04-19 19:38:29.875 -04:00 [INF] 2025/04/19 19:38:29.875 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 19:38:29.878 -04:00 [INF] 2025/04/19 19:38:29.878 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 19:38:29.882 -04:00 [INF] 2025/04/19 19:38:29.882 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 19:38:29.883 -04:00 [INF] 2025/04/19 19:38:29.883 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 19:38:29.885 -04:00 [INF] 2025/04/19 19:38:29.885 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 19:38:29.887 -04:00 [INF] 2025/04/19 19:38:29.887 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 19:39:12.050 -04:00 [INF] 2025/04/19 19:39:12.050 frmStudyCaseNew Form_Unload: *****Leaving scenario NEW

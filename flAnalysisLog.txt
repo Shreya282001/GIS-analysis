@@ -1,0 +1,1004 @@
+2025-04-19 20:36:02.207 -04:00 [INF] 2025/04/19 20:36:02.197  absp_DeleteSCResults: StudyCaseID = 1: started
+2025-04-19 20:36:02.208 -04:00 [INF] 2025/04/19 20:36:02.200  absp_DeleteSCResults: executed in: 0 seconds
+2025-04-19 22:20:40.312 -04:00 [INF] 2025/04/19 22:20:40.312 : ***********: **********************************************************
+2025-04-19 22:20:40.314 -04:00 [INF] 2025/04/19 22:20:40.314 : StudyCaseID: 1                     Area Weighted
+2025-04-19 22:20:40.315 -04:00 [INF] 2025/04/19 22:20:40.315 : ***********: **********************************************************
+2025-04-19 22:20:40.349 -04:00 [INF] 2025/04/19 22:20:40.349 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:20:40.352 -04:00 [INF] 2025/04/19 22:20:40.352 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:20:40.354 -04:00 [INF] 2025/04/19 22:20:40.354 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:20:40.357 -04:00 [INF] 2025/04/19 22:20:40.357 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:20:40.361 -04:00 [INF] 2025/04/19 22:20:40.361 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:20:40.363 -04:00 [INF] 2025/04/19 22:20:40.363 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:20:40.368 -04:00 [INF] 2025/04/19 22:20:40.368 hzFlAnDamageFn.modAnalyseFlood.ValidateAll: Beginning validations...
+2025-04-19 22:20:40.374 -04:00 [INF] 2025/04/19 22:20:40.374 hzFlAnDamageFn.modAnalyseFlood.ValidateAll: All validations have passed!
+2025-04-19 22:20:40.376 -04:00 [INF] 2025/04/19 22:20:40.376 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Entering...
+2025-04-19 22:20:40.379 -04:00 [INF] 2025/04/19 22:20:40.379 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Creating 'C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults
+2025-04-19 22:20:40.647 -04:00 [INF] 2025/04/19 22:20:40.647 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Created CmbRes table
+2025-04-19 22:20:40.691 -04:00 [INF] 2025/04/19 22:20:40.691 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Created firstjoin table
+2025-04-19 22:20:40.734 -04:00 [INF] 2025/04/19 22:20:40.734 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Created secondjoin table
+2025-04-19 22:20:40.740 -04:00 [INF] 2025/04/19 22:20:40.740 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis: Depth grid path = C:\HazusData\Regions\Bartholomew_1\Bartholomew\Riverine\Depth
+2025-04-19 22:20:40.742 -04:00 [INF] 2025/04/19 22:20:40.742 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis: Executing DefineFloodAnalyse for RPD100
+2025-04-19 22:20:40.749 -04:00 [INF] 2025/04/19 22:20:40.749 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 1: RPD100 has a return period of 100
+2025-04-19 22:20:40.796 -04:00 [INF] 2025/04/19 22:20:40.796 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 5: No existing AW rows in the database!
+2025-04-19 22:20:40.799 -04:00 [INF] 2025/04/19 22:20:40.799 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 8:  HazType =R and HazType enum = lcRiverine
+2025-04-19 22:20:40.826 -04:00 [INF] 2025/04/19 22:20:40.826 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 25: Reclassifying RPD100 to an integer grid
+2025-04-19 22:20:40.881 -04:00 [INF] 2025/04/19 22:20:40.881 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Entering for grid: ReClass
+2025-04-19 22:20:40.883 -04:00 [INF] 2025/04/19 22:20:40.883 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Path: C:\HazusData\Regions\Bartholomew_1\Bartholomew
+2025-04-19 22:20:41.549 -04:00 [INF] 2025/04/19 22:20:41.549 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 27: ReClass Reclassification successful!
+2025-04-19 22:20:41.579 -04:00 [INF] 2025/04/19 22:20:41.579 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 33: Converting hzCensusblock FC to BlkGrid GRID...
+2025-04-19 22:20:42.463 -04:00 [INF] 2025/04/19 22:20:42.463 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 34: Conversion successful!
+2025-04-19 22:20:42.465 -04:00 [INF] 2025/04/19 22:20:42.465 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 37: Exporting BlkGrid to table CenBlk...
+2025-04-19 22:20:42.653 -04:00 [INF] 2025/04/19 22:20:42.653 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 37: Exported to CenBlk with 2158 rows
+2025-04-19 22:20:42.713 -04:00 [INF] 2025/04/19 22:20:42.713 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 45: 2169 CBs in hzCensusBlock
+2025-04-19 22:20:42.717 -04:00 [INF] 2025/04/19 22:20:42.717 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 47: Performing extraction operations to create GrdCmb1...
+2025-04-19 22:20:43.400 -04:00 [INF] 2025/04/19 22:20:43.400 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Entering for grid: GrdCmb1
+2025-04-19 22:20:43.402 -04:00 [INF] 2025/04/19 22:20:43.402 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Path: C:\HazusData\Regions\Bartholomew_1\Bartholomew
+2025-04-19 22:20:43.900 -04:00 [INF] 2025/04/19 22:20:43.900 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 56: Extraction operations successful!
+2025-04-19 22:20:43.903 -04:00 [INF] 2025/04/19 22:20:43.903 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 57: Exporting GrdCmb1 to table GrdAttrib1...
+2025-04-19 22:20:44.038 -04:00 [INF] 2025/04/19 22:20:44.038 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 57: Exported GrdAttrib1 with 659 rows
+2025-04-19 22:20:44.057 -04:00 [INF] 2025/04/19 22:20:44.057 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 61: GrdAttrib1 raster field name = RAS68103
+2025-04-19 22:20:44.060 -04:00 [INF] 2025/04/19 22:20:44.060 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 62: DEBUG: pFilter.WhereClause = 'ReClass=999'
+2025-04-19 22:20:44.062 -04:00 [INF] 2025/04/19 22:20:44.062 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 63: DEBUG: pTable.DeleteSearchedRows(pFilter)
+2025-04-19 22:20:44.064 -04:00 [INF] 2025/04/19 22:20:44.064 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 64: Executing RelQryTab...
+2025-04-19 22:20:44.093 -04:00 [INF] 2025/04/19 22:20:44.093 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 64: Completed RelQryTab
+2025-04-19 22:20:44.094 -04:00 [INF] 2025/04/19 22:20:44.094 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 65: Exporting table CmbRes1...
+2025-04-19 22:20:44.262 -04:00 [INF] 2025/04/19 22:20:44.261 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 65: Exported CmbRes1 with 659 rows
+2025-04-19 22:20:44.272 -04:00 [INF] 2025/04/19 22:20:44.272 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 67: Executing CombineAllComRes...
+2025-04-19 22:20:44.300 -04:00 [INF] 2025/04/19 22:20:44.300 hzFlAnDamageFn.modAW.CombineAllComRes: strAccessDB: C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults.mdb
+2025-04-19 22:20:44.302 -04:00 [INF] 2025/04/19 22:20:44.302 hzFlAnDamageFn.modAW.CombineAllComRes: strSQL: DELETE FROM CmbRes
+2025-04-19 22:20:44.304 -04:00 [INF] 2025/04/19 22:20:44.304 hzFlAnDamageFn.modAW.CombineAllComRes: DELETE FROM CmbRes in hzFlAnResults. Records Affected: 0
+2025-04-19 22:20:44.327 -04:00 [INF] 2025/04/19 22:20:44.327 hzFlAnDamageFn.modAW.CombineAllComRes: INSERT INTO CmbRes (Value_, Count_,BlkGrid,Reclass,ObjectID_1,CensusBlock) SELECT Value_,Count_,RAS68103 as BlkGrid,Reclass,ObjectID_1,CensusBlock FROM CmbRes1 Records Affected: 659
+2025-04-19 22:20:44.391 -04:00 [INF] 2025/04/19 22:20:44.391 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 67: Completed CombineAllComRes
+2025-04-19 22:20:44.397 -04:00 [INF] 2025/04/19 22:20:44.397 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 71: Executing LoadAWMDBDataToSQL...
+2025-04-19 22:20:44.400 -04:00 [INF] 2025/04/19 22:20:44.400 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Started LoadAWMDBDataToSQL at = 0 hazardType = lcRiverine
+2025-04-19 22:20:44.410 -04:00 [INF] 2025/04/19 22:20:44.410 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Dropped  flAnGBSCenBlk
+2025-04-19 22:20:44.417 -04:00 [INF] 2025/04/19 22:20:44.417 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Created  flAnGBSCenBlk
+2025-04-19 22:20:44.419 -04:00 [INF] 2025/04/19 22:20:44.419 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: flAnGBSCenBlk and {studyCasePath}{AwConstants.MDB_RESULTS} =C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults.mdb
+2025-04-19 22:20:44.429 -04:00 [INF] 2025/04/19 22:20:44.429 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Setting columns flAnGBSCenBlk
+2025-04-19 22:20:46.049 -04:00 [INF] 2025/04/19 22:20:46.049 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Populated 2158 rows into flAnGBSCenBlk
+2025-04-19 22:20:51.057 -04:00 [INF] 2025/04/19 22:20:51.057 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Dropped  flAnGBSCmbRes
+2025-04-19 22:20:51.070 -04:00 [INF] 2025/04/19 22:20:51.070 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Created  flAnGBSCmbRes
+2025-04-19 22:20:51.072 -04:00 [INF] 2025/04/19 22:20:51.072 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: flAnGBSCmbRes and {studyCasePath}{AwConstants.MDB_RESULTS} =C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults.mdb
+2025-04-19 22:20:51.088 -04:00 [INF] 2025/04/19 22:20:51.088 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Setting columns  flAnGBSCmbRes, Actual RowCount=659
+2025-04-19 22:20:51.224 -04:00 [INF] 2025/04/19 22:20:51.224 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Populated 659 rows into flAnGBSCmbRes
+2025-04-19 22:20:56.231 -04:00 [INF] 2025/04/19 22:20:56.231 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Clear tempDB started...
+2025-04-19 22:20:56.273 -04:00 [INF] 2025/04/19 22:20:56.273 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Clear tempDB complete...
+2025-04-19 22:20:56.280 -04:00 [INF] 2025/04/19 22:20:56.280 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 71: Completed LoadAWMDBDataToSQL
+2025-04-19 22:20:56.284 -04:00 [INF] 2025/04/19 22:20:56.284 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 73: Executing UpdateMSDE...
+2025-04-19 22:20:56.409 -04:00 [INF] 2025/04/19 22:20:56.310  absp_GBSInsertAW: '100', 0, 'R' --FYI @StudyRegion='C:\HazusData\Regions\Bartholomew_1\, @StudyCaseName='Bartholomew', @StudyCaseID=1
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.310  absp_GBSInsertAW: started
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.310  absp_GBSInsertAW: flAnGBSCmbRes (R) rows=659
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.310  absp_GBSInsertAW: flAnGBSCenBlk (CR) rows=2158
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.310  absp_GBSInsertAW: DEBUG: select CensusBlock, sum(PctAffected) PctAffected from flAnGBSCombineAWTemp group by CensusBlock order by sum(PctAffected) desc
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.310  absp_GBSInsertAW: DEBUG: select CensusBlock, ReClass, PctAffected from flAnGBSCombineAWTemp order by CensusBlock asc, ReClass asc
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.317  absp_GBSInsertAW: flAnGBSCombineAWTemp (R) rows=659
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.317  absp_GBSInsertAW: DEBUG: BEFORE DELETE: flAnAreaWeighted rows=0
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.317  absp_GBSInsertAW: DEBUG: AFTER DELETE, BEFORE insert: flAnAreaWeighted rows=0
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.327  absp_GBSInsertAW: DEBUG: AFTER insert: flAnAreaWeighted rows=161
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.327  absp_GBSInsertAW: SC: Bartholomew flAnAreaWeighted rows=161
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.333  absp_GBSInsertAW: update flAnAreaWeighted set ft100 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 100
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.337  absp_GBSInsertAW: update flAnAreaWeighted set ft1000 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1000
+2025-04-19 22:20:56.410 -04:00 [INF] 2025/04/19 22:20:56.340  absp_GBSInsertAW: update flAnAreaWeighted set ft1050 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1050
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.343  absp_GBSInsertAW: update flAnAreaWeighted set ft1100 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1100
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.343  absp_GBSInsertAW: update flAnAreaWeighted set ft1150 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1150
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.347  absp_GBSInsertAW: update flAnAreaWeighted set ft1200 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1200
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.350  absp_GBSInsertAW: update flAnAreaWeighted set ft1250 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1250
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.353  absp_GBSInsertAW: update flAnAreaWeighted set ft1300 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1300
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.353  absp_GBSInsertAW: update flAnAreaWeighted set ft1350 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1350
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.357  absp_GBSInsertAW: update flAnAreaWeighted set ft1400 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1400
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.360  absp_GBSInsertAW: update flAnAreaWeighted set ft1450 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1450
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.360  absp_GBSInsertAW: update flAnAreaWeighted set ft150 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 150
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.363  absp_GBSInsertAW: update flAnAreaWeighted set ft200 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 200
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.367  absp_GBSInsertAW: update flAnAreaWeighted set ft250 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 250
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.407  absp_GBSInsertAW: DEBUG: AFTER update: flAnAreaWeighted rows=161
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.407  absp_GBSInsertAW OK: executed in: 0 minutes
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.407  absp_GBSInsertAW: DEBUG: AFTER commit: flAnAreaWeighted rows=161
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.370  absp_GBSInsertAW: update flAnAreaWeighted set ft300 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 300
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.373  absp_GBSInsertAW: update flAnAreaWeighted set ft350 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 350
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.373  absp_GBSInsertAW: update flAnAreaWeighted set ft400 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 400
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.377  absp_GBSInsertAW: update flAnAreaWeighted set ft450 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 450
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.380  absp_GBSInsertAW: update flAnAreaWeighted set ft50 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 50
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.383  absp_GBSInsertAW: update flAnAreaWeighted set ft500 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 500
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.383  absp_GBSInsertAW: update flAnAreaWeighted set ft550 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 550
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.387  absp_GBSInsertAW: update flAnAreaWeighted set ft600 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 600
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.390  absp_GBSInsertAW: update flAnAreaWeighted set ft650 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 650
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.390  absp_GBSInsertAW: update flAnAreaWeighted set ft700 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 700
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.393  absp_GBSInsertAW: update flAnAreaWeighted set ft750 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 750
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.397  absp_GBSInsertAW: update flAnAreaWeighted set ft800 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 800
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.400  absp_GBSInsertAW: update flAnAreaWeighted set ft850 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 850
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.400  absp_GBSInsertAW: update flAnAreaWeighted set ft900 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 900
+2025-04-19 22:20:56.411 -04:00 [INF] 2025/04/19 22:20:56.403  absp_GBSInsertAW: update flAnAreaWeighted set ft950 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 950
+2025-04-19 22:20:56.415 -04:00 [INF] 2025/04/19 22:20:56.415 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 73: Completed UpdateMSDE
+2025-04-19 22:20:56.641 -04:00 [INF] 2025/04/19 22:20:56.641 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 76: Done with Area Weighted calculations for RPD100
+2025-04-19 22:20:56.652 -04:00 [INF] 2025/04/19 22:20:56.652 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: Clear tempDB started...
+2025-04-19 22:20:56.661 -04:00 [INF] 2025/04/19 22:20:56.661 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: Clear tempDB complete...
+2025-04-19 22:20:56.668 -04:00 [INF] 2025/04/19 22:20:56.668 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis: Successfully completed DefineFloodAnalyse for RPD100
+2025-04-19 22:20:56.670 -04:00 [INF] 2025/04/19 22:20:56.670 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis:    *** ALL DEPTH GRIDS OK ***
+2025-04-19 22:20:56.729 -04:00 [INF] 2025/04/19 22:20:56.729 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: Starting GBS analysis
+2025-04-19 22:20:56.783 -04:00 [INF] 2025/04/19 22:20:56.783 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: Show_Redo_Anal_Val = False
+2025-04-19 22:20:56.789 -04:00 [INF] 2025/04/19 22:20:56.789 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: ExistResults = NExist
+2025-04-19 22:20:56.792 -04:00 [INF] 2025/04/19 22:20:56.792 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: DeleteResultsResponse = vbCancel
+2025-04-19 22:20:56.845 -04:00 [INF] 2025/04/19 22:20:56.843  absp_GBSReturnPeriods: @haztype=1, @StudyCaseId=1, @AnalysisOptID=0
+2025-04-19 22:20:56.845 -04:00 [INF] 2025/04/19 22:20:56.843  absp_GBSReturnPeriods: started
+2025-04-19 22:20:56.846 -04:00 [INF] 2025/04/19 22:20:56.843  absp_GBSReturnPeriods #RPs=1, #CBs=161, #CBs-per-batch=99999: executed in: 0 seconds
+2025-04-19 22:20:56.846 -04:00 [INF] 2025/04/19 22:20:56.843  absp_GBSReturnPeriods: finished OK 1 batch-to-run
+2025-04-19 22:20:56.849 -04:00 [INF] 2025/04/19 22:20:56.849 hzFlAnStockDmg.modAnBldgStock.AssignProcessCodes: @rc=1
+2025-04-19 22:20:56.853 -04:00 [INF] 2025/04/19 22:20:56.853 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: NumRun: 1
+2025-04-19 22:20:56.860 -04:00 [INF] 2025/04/19 22:20:56.860 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: RegionsPath=C:\HazusData\Regions\Bartholomew_1\
+2025-04-19 22:20:56.863 -04:00 [INF] 2025/04/19 22:20:56.863 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: StudyCaseName=Bartholomew
+2025-04-19 22:20:56.864 -04:00 [INF] 2025/04/19 22:20:56.864 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter AnalysisBits=15
+2025-04-19 22:20:56.867 -04:00 [INF] 2025/04/19 22:20:56.867 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter AnalysisOptID=0
+2025-04-19 22:20:56.869 -04:00 [INF] 2025/04/19 22:20:56.869 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter Debug=N
+2025-04-19 22:20:56.873 -04:00 [INF] 2025/04/19 22:20:56.873 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter haztype=1
+2025-04-19 22:20:56.900 -04:00 [INF] 2025/04/19 22:20:56.900 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: RegDivide=1
+2025-04-19 22:20:56.902 -04:00 [INF] 2025/04/19 22:20:56.902 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter proccode=1
+2025-04-19 22:21:11.801 -04:00 [INF] 2025/04/19 22:20:56.937    -----------: ----------------------------------------------------------
+2025-04-19 22:21:11.801 -04:00 [INF] 2025/04/19 22:20:56.937    StudyCaseID: 1                   GBS Analysis
+2025-04-19 22:21:11.801 -04:00 [INF] 2025/04/19 22:20:56.937    -----------: ----------------------------------------------------------
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:20:56.973    absp_hdd_state: C drive has 573748 MB free space; tempdb is 67MB; templog is 8MB
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:20:56.973    absp_GBSDoIt: absp_GBSDoIt 15, 0, 'N', 1, 1
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:00.470  0.GBS Common: started
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:00.793    -----------: ----------------------------------------------------------
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:00.793      Registry : Settings.xml <DivideGBS> = 1, DebugGBS = N
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:00.793    -----------: ----------------------------------------------------------
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:00.813    absp_GBSBasePrep:: 
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:00.820    absp_GBSBasePrep:: There is/are 0 user defined SchemeID(s) being used in distribution table(s).
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:07.540    absp_GBSBasePrep:: 
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:07.580  : "BACKUP LOG is terminating abnormally."  Line: 1  No: 3013  Sev: 16  State: 1
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:08.513  0.GBS Common OK: executed in: 00 hour(s): 00 minute(s): 08 second(s).
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:08.513    absp_hdd_state: C drive has 573313 MB free space; tempdb is 195MB; templog is 264MB
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:08.513  1.GBS Building and Cont Damage: started
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:09.220  1.GBS Building and Cont Damage OK: executed in: 00 hour(s): 00 minute(s): 01 second(s).
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:09.220    absp_hdd_state: C drive has 573313 MB free space; tempdb is 195MB; templog is 264MB
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:09.220  2.GBS Economic Losses: started
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:10.883  2.GBS Economic Losses OK: executed in: 00 hour(s): 00 minute(s): 01 second(s).
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:10.887    absp_hdd_state: C drive has 573313 MB free space; tempdb is 195MB; templog is 264MB
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:10.887  4.GBS Count Damage: started
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.407  4.GBS Count Damage OK: executed in: 00 hour(s): 00 minute(s): 01 second(s).
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.407    absp_hdd_state: C drive has 573313 MB free space; tempdb is 195MB; templog is 264MB
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.407  8.GBS Depreciated Economic Loss: started
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.793  8.GBS Depreciated Economic Loss OK: executed in: 00 hour(s): 00 minute(s): 00 second(s).
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.797    absp_hdd_state: C drive has 573313 MB free space; tempdb is 195MB; templog is 264MB
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.797  9.GBS Clean up: 
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.797    absp_hdd_state: C drive has 573313 MB free space; tempdb is 195MB; templog is 264MB
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.797  ------------------------: -------------------------------------------------------------
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.797  GBS RUN:       COMPLETE : Completed in: 00 hour(s): 00 minute(s): 15 second(s). rc= 0
+2025-04-19 22:21:11.802 -04:00 [INF] 2025/04/19 22:21:11.797  ------------------------: -------------------------------------------------------------
+2025-04-19 22:21:11.808 -04:00 [INF] 2025/04/19 22:21:11.808 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Done
+2025-04-19 22:21:12.016 -04:00 [INF] 2025/04/19 22:21:12.016 : ***********: **********************************************************
+2025-04-19 22:21:12.018 -04:00 [INF] 2025/04/19 22:21:12.018 : StudyCaseID: 1                     Essential Facilities
+2025-04-19 22:21:12.019 -04:00 [INF] 2025/04/19 22:21:12.019 : ***********: **********************************************************
+2025-04-19 22:21:12.053 -04:00 [INF] 2025/04/19 22:21:12.053 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:21:12.055 -04:00 [INF] 2025/04/19 22:21:12.055 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:21:12.057 -04:00 [INF] 2025/04/19 22:21:12.057 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:21:12.059 -04:00 [INF] 2025/04/19 22:21:12.059 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:21:12.061 -04:00 [INF] 2025/04/19 22:21:12.061 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:21:12.063 -04:00 [INF] 2025/04/19 22:21:12.063 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:21:12.078 -04:00 [INF] 2025/04/19 22:21:12.078 hzFlAnEFDmg.modAnEF.ValidateParms: Done...
+2025-04-19 22:21:12.090 -04:00 [INF] 2025/04/19 22:21:12.090 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Starting RunValidHazardCalc()...
+2025-04-19 22:21:12.794 -04:00 [INF] 2025/04/19 22:21:12.794 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** EMERGENCYCTR ***
+2025-04-19 22:21:12.796 -04:00 [INF] 2025/04/19 22:21:12.796 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:12.799 -04:00 [INF] 2025/04/19 22:21:12.799 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:21:12.801 -04:00 [INF] 2025/04/19 22:21:12.801 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:12.997 -04:00 [INF] 2025/04/19 22:21:12.997 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** FIRESTATION ***
+2025-04-19 22:21:12.999 -04:00 [INF] 2025/04/19 22:21:12.999 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:13.002 -04:00 [INF] 2025/04/19 22:21:13.002 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:21:13.004 -04:00 [INF] 2025/04/19 22:21:13.004 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:13.206 -04:00 [INF] 2025/04/19 22:21:13.206 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** CAREFLTY ***
+2025-04-19 22:21:13.208 -04:00 [INF] 2025/04/19 22:21:13.208 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:13.211 -04:00 [INF] 2025/04/19 22:21:13.211 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:21:13.213 -04:00 [INF] 2025/04/19 22:21:13.213 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:13.416 -04:00 [INF] 2025/04/19 22:21:13.416 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** POLICESTATION ***
+2025-04-19 22:21:13.418 -04:00 [INF] 2025/04/19 22:21:13.418 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:13.421 -04:00 [INF] 2025/04/19 22:21:13.421 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:21:13.423 -04:00 [INF] 2025/04/19 22:21:13.423 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:13.641 -04:00 [INF] 2025/04/19 22:21:13.641 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** SCHOOL ***
+2025-04-19 22:21:13.643 -04:00 [INF] 2025/04/19 22:21:13.643 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:13.647 -04:00 [INF] 2025/04/19 22:21:13.647 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:21:13.649 -04:00 [INF] 2025/04/19 22:21:13.649 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:21:13.661 -04:00 [INF] 2025/04/19 22:21:13.661 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: RunValidHazardCalc() completed!
+2025-04-19 22:21:14.258 -04:00 [INF] 2025/04/19 22:21:14.258 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:21:14.278 -04:00 [INF] 2025/04/19 22:21:14.278 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFREmergencyCtr WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:21:14.282 -04:00 [INF] 2025/04/19 22:21:14.282 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFREmergencyCtr WHERE Active_ind = 'A'
+2025-04-19 22:21:14.478 -04:00 [INF] 2025/04/19 22:21:14.478 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:21:14.498 -04:00 [INF] 2025/04/19 22:21:14.498 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRFireStation WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:21:14.501 -04:00 [INF] 2025/04/19 22:21:14.501 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRFireStation WHERE Active_ind = 'A'
+2025-04-19 22:21:14.696 -04:00 [INF] 2025/04/19 22:21:14.696 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:21:14.715 -04:00 [INF] 2025/04/19 22:21:14.715 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRCareFlty WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:21:14.718 -04:00 [INF] 2025/04/19 22:21:14.718 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRCareFlty WHERE Active_ind = 'A'
+2025-04-19 22:21:14.914 -04:00 [INF] 2025/04/19 22:21:14.914 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:21:14.933 -04:00 [INF] 2025/04/19 22:21:14.933 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRPoliceStation WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:21:14.936 -04:00 [INF] 2025/04/19 22:21:14.936 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRPoliceStation WHERE Active_ind = 'A'
+2025-04-19 22:21:15.132 -04:00 [INF] 2025/04/19 22:21:15.132 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:21:15.153 -04:00 [INF] 2025/04/19 22:21:15.153 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRSchool WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:21:15.156 -04:00 [INF] 2025/04/19 22:21:15.156 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRSchool WHERE Active_ind = 'A'
+2025-04-19 22:21:15.369 -04:00 [INF] 2025/04/19 22:21:15.369 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:21:15.371 -04:00 [INF] 2025/04/19 22:21:15.371 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:21:15.373 -04:00 [INF] 2025/04/19 22:21:15.373 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:21:15.375 -04:00 [INF] 2025/04/19 22:21:15.375 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:21:15.377 -04:00 [INF] 2025/04/19 22:21:15.377 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:21:15.379 -04:00 [INF] 2025/04/19 22:21:15.379 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:21:15.383 -04:00 [INF] 2025/04/19 22:21:15.383 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.InitFloodAnalysisFn): No error messages, proceeding
+2025-04-19 22:21:15.390 -04:00 [INF] 2025/04/19 22:21:15.390 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.RunAnalysis): rpd100 of C:\HazusData\Regions\Bartholomew_1\Bartholomew\Riverine\Depth
+2025-04-19 22:21:15.746 -04:00 [INF] 2025/04/19 22:21:15.746 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.DefineEFAnalyse):700: Assigned DDFs used for Buildings: 0, Contents: 0, Inventory: 0
+2025-04-19 22:21:15.748 -04:00 [INF] 2025/04/19 22:21:15.748 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.DefineEFAnalyse):700: Default DDFs used for Buildings: 0, Contents: 0, Inventory: 0
+2025-04-19 22:21:15.750 -04:00 [INF] 2025/04/19 22:21:15.750 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.DefineEFAnalyse):700: Total 0 UDFs analyzed
+2025-04-19 22:21:15.753 -04:00 [INF] 2025/04/19 22:21:15.753 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.RunAnalysis): rpd100 of C:\HazusData\Regions\Bartholomew_1\Bartholomew\Riverine\Depth
+2025-04-19 22:21:16.591 -04:00 [INF] 2025/04/19 22:21:16.591 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.InitFloodAnalysisFn): About to upload the results...
+2025-04-19 22:21:16.613 -04:00 [INF] 2025/04/19 22:21:16.613 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.UploadResults): delete flFRUserDefinedFlty where StudyCaseID = 1 and AnalysisOptID = 0
+2025-04-19 22:21:16.616 -04:00 [INF] 2025/04/19 22:21:16.616 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.UploadResults): Select * from flUDEFResults where Active_ind = 'A'
+2025-04-19 22:21:16.622 -04:00 [INF] 2025/04/19 22:21:16.622 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.InitFloodAnalysisFn): uploaded the results!
+2025-04-19 22:21:16.740 -04:00 [INF] 2025/04/19 22:21:16.740 : ***********: **********************************************************
+2025-04-19 22:21:16.742 -04:00 [INF] 2025/04/19 22:21:16.742 : StudyCaseID: 1                  Transportation Systems
+2025-04-19 22:21:16.743 -04:00 [INF] 2025/04/19 22:21:16.743 : ***********: **********************************************************
+2025-04-19 22:21:16.745 -04:00 [INF] 2025/04/19 22:21:16.745 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:21:16.748 -04:00 [INF] 2025/04/19 22:21:16.748 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:21:16.750 -04:00 [INF] 2025/04/19 22:21:16.750 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:21:16.753 -04:00 [INF] 2025/04/19 22:21:16.753 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:21:16.754 -04:00 [INF] 2025/04/19 22:21:16.754 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:21:16.756 -04:00 [INF] 2025/04/19 22:21:16.756 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:21:16.794 -04:00 [INF] 2025/04/19 22:21:16.794 Module Trans(hzFlAnTransDmg.modAnTrans.RunAnalysis): +++ Running analysis for rpd100 - R +++
+2025-04-19 22:21:16.952 -04:00 [INF] 2025/04/19 22:21:16.952 Module Trans(hzFlAnTransDmg.modAnTrans.DefineTransAnalysis): After GetPointCol(hzHighwayBridge, HighwayBridgeID): colStrAllBridgeIDs.Count = 91
+2025-04-19 22:21:16.954 -04:00 [INF] 2025/04/19 22:21:16.954 Module Trans(hzFlAnTransDmg.modAnTrans.DefineTransAnalysis): After GetPointCol(hzRailwayBridge, RailwayBridgeID): colStrAllBridgeIDs.Count = 91
+2025-04-19 22:21:16.956 -04:00 [INF] 2025/04/19 22:21:16.956 Module Trans(hzFlAnTransDmg.modAnTrans.DefineTransAnalysis): After GetPointCol(hzLightRailBridge, LightRailBridgeID): colStrAllBridgeIDs.Count = 91
+2025-04-19 22:21:17.143 -04:00 [INF] 2025/04/19 22:21:17.143 Module Trans(hzFlAnTransDmg.modAnTrans.CalculateThat): Updated the flFRHighwayBridge table!
+2025-04-19 22:21:17.151 -04:00 [INF] 2025/04/19 22:21:17.151 Module Trans(hzFlAnTransDmg.modAnTrans.CalculateThat): Updated the flFRRailwayBridge table!
+2025-04-19 22:21:17.158 -04:00 [INF] 2025/04/19 22:21:17.158 Module Trans(hzFlAnTransDmg.modAnTrans.CalculateThat): Updated the flFRLightRailBridge table!
+2025-04-19 22:21:17.329 -04:00 [INF] 2025/04/19 22:21:17.329 : ***********: **********************************************************
+2025-04-19 22:21:17.331 -04:00 [INF] 2025/04/19 22:21:17.331 : StudyCaseID: 1                  Utility Systems
+2025-04-19 22:21:17.333 -04:00 [INF] 2025/04/19 22:21:17.333 : ***********: **********************************************************
+2025-04-19 22:21:17.335 -04:00 [INF] 2025/04/19 22:21:17.335 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:21:17.338 -04:00 [INF] 2025/04/19 22:21:17.338 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:21:17.340 -04:00 [INF] 2025/04/19 22:21:17.340 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:21:17.343 -04:00 [INF] 2025/04/19 22:21:17.343 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:21:17.345 -04:00 [INF] 2025/04/19 22:21:17.345 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:21:17.348 -04:00 [INF] 2025/04/19 22:21:17.348 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:21:17.406 -04:00 [INF] 2025/04/19 22:21:17.406 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.ValidateParmsA): Done...
+2025-04-19 22:21:17.784 -04:00 [INF] 2025/04/19 22:21:17.784 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** POTABLEWATERFLTY ***
+2025-04-19 22:21:17.786 -04:00 [INF] 2025/04/19 22:21:17.786 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:17.787 -04:00 [INF] 2025/04/19 22:21:17.787 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 0 utilities affected.
+2025-04-19 22:21:17.789 -04:00 [INF] 2025/04/19 22:21:17.789 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:17.978 -04:00 [INF] 2025/04/19 22:21:17.978 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** WASTEWATERFLTY ***
+2025-04-19 22:21:17.980 -04:00 [INF] 2025/04/19 22:21:17.980 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:18.012 -04:00 [INF] 2025/04/19 22:21:18.012 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): FacilityID: IN000217
+2025/04/19 22:21:18.012 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      UtilityClass: WDFLT
+2025/04/19 22:21:18.012 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Damage%: 9.591186
+2025/04/19 22:21:18.012 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Loss: 12883.638738894
+2025-04-19 22:21:18.014 -04:00 [INF] 2025/04/19 22:21:18.014 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:18.045 -04:00 [INF] 2025/04/19 22:21:18.045 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): FacilityID: IN000312
+2025/04/19 22:21:18.045 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      UtilityClass: WDFLT
+2025/04/19 22:21:18.045 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Damage%: 18.486814
+2025/04/19 22:21:18.045 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Loss: 24832.949023106
+2025-04-19 22:21:18.048 -04:00 [INF] 2025/04/19 22:21:18.048 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:18.063 -04:00 [INF] 2025/04/19 22:21:18.063 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): FacilityID: IN000468
+2025/04/19 22:21:18.063 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      UtilityClass: WDFLT
+2025/04/19 22:21:18.063 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Damage%: 28.517946
+2025/04/19 22:21:18.063 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Loss: 38307.557984934
+2025-04-19 22:21:18.065 -04:00 [INF] 2025/04/19 22:21:18.065 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:18.067 -04:00 [INF] 2025/04/19 22:21:18.067 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 3 utilities affected.
+2025-04-19 22:21:18.069 -04:00 [INF] 2025/04/19 22:21:18.069 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:18.275 -04:00 [INF] 2025/04/19 22:21:18.275 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** OILFLTY ***
+2025-04-19 22:21:18.276 -04:00 [INF] 2025/04/19 22:21:18.276 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:18.278 -04:00 [INF] 2025/04/19 22:21:18.278 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 0 utilities affected.
+2025-04-19 22:21:18.280 -04:00 [INF] 2025/04/19 22:21:18.280 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:18.467 -04:00 [INF] 2025/04/19 22:21:18.467 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** NATURALGASFLTY ***
+2025-04-19 22:21:18.469 -04:00 [INF] 2025/04/19 22:21:18.469 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:18.471 -04:00 [INF] 2025/04/19 22:21:18.471 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 0 utilities affected.
+2025-04-19 22:21:18.473 -04:00 [INF] 2025/04/19 22:21:18.473 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:21:18.848 -04:00 [INF] 2025/04/19 22:21:18.848 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 0
+2025-04-19 22:21:19.237 -04:00 [INF] 2025/04/19 22:21:19.237 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 3
+2025-04-19 22:21:19.655 -04:00 [INF] 2025/04/19 22:21:19.655 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 0
+2025-04-19 22:21:20.045 -04:00 [INF] 2025/04/19 22:21:20.045 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 0
+2025-04-19 22:21:20.100 -04:00 [INF] 2025/04/19 22:21:20.100 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.InitFloodAnalysis): Done...
+2025-04-19 22:21:20.233 -04:00 [INF] 2025/04/19 22:21:20.233 : ***********: **********************************************************
+2025-04-19 22:21:20.236 -04:00 [INF] 2025/04/19 22:21:20.236 : StudyCaseID: 1                  Vehicle Damage
+2025-04-19 22:21:20.238 -04:00 [INF] 2025/04/19 22:21:20.238 : ***********: **********************************************************
+2025-04-19 22:21:20.241 -04:00 [INF] 2025/04/19 22:21:20.241 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:21:20.244 -04:00 [INF] 2025/04/19 22:21:20.244 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:21:20.248 -04:00 [INF] 2025/04/19 22:21:20.248 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:21:20.250 -04:00 [INF] 2025/04/19 22:21:20.250 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:21:20.251 -04:00 [INF] 2025/04/19 22:21:20.251 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:21:20.253 -04:00 [INF] 2025/04/19 22:21:20.253 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:21:20.476 -04:00 [INF] 2025/04/19 22:21:20.287  absp_VehDoIt: 
+2025-04-19 22:21:20.476 -04:00 [INF] 2025/04/19 22:21:20.287  Vehicles Analysis Block: started
+2025-04-19 22:21:20.476 -04:00 [INF] 2025/04/19 22:21:20.473  Vehicle Clean up: started
+2025-04-19 22:21:20.476 -04:00 [INF] 2025/04/19 22:21:20.473  Vehicle Clean up OK: executed in: 0 seconds
+2025-04-19 22:21:20.476 -04:00 [INF] 2025/04/19 22:21:20.473  absp_VehDoIt rc = 0: executed in: 0 minutes
+2025-04-19 22:21:20.615 -04:00 [INF] 2025/04/19 22:21:20.615 : ***********: **********************************************************
+2025-04-19 22:21:20.617 -04:00 [INF] 2025/04/19 22:21:20.617 : StudyCaseID: 1                         Debris
+2025-04-19 22:21:20.620 -04:00 [INF] 2025/04/19 22:21:20.620 : ***********: **********************************************************
+2025-04-19 22:21:20.622 -04:00 [INF] 2025/04/19 22:21:20.622 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:21:20.624 -04:00 [INF] 2025/04/19 22:21:20.624 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:21:20.627 -04:00 [INF] 2025/04/19 22:21:20.627 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:21:20.630 -04:00 [INF] 2025/04/19 22:21:20.630 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:21:20.632 -04:00 [INF] 2025/04/19 22:21:20.632 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:21:20.634 -04:00 [INF] 2025/04/19 22:21:20.634 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:21:20.658 -04:00 [INF] 2025/04/19 22:21:20.653  absp_GBSReturnPeriods: @haztype=1, @StudyCaseId=1, @AnalysisOptID=0
+2025-04-19 22:21:20.658 -04:00 [INF] 2025/04/19 22:21:20.653  absp_GBSReturnPeriods: started
+2025-04-19 22:21:20.658 -04:00 [INF] 2025/04/19 22:21:20.657  absp_GBSReturnPeriods #RPs=1, #CBs=161, #CBs-per-batch=99999: executed in: 0 seconds
+2025-04-19 22:21:20.658 -04:00 [INF] 2025/04/19 22:21:20.657  absp_GBSReturnPeriods: finished OK 1 batch-to-run
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:20.720  absp_DebrisDoIt: 
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:20.720   absp_Debris: 
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:20.730  Debris Analysis Block: started
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:20.847   absp_DebrisYearBuilt rc = 0: executed in: 0 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:20.917   absp_DebrisSchemeSOccup rc = 0: executed in: 0 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:20.967   absp_DebrisSOccupCLR rc = 0: executed in: 0 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:21.157   absp_DebrisYearBuiltReduced rc = 0: executed in: 1 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:21.220   absp_DebrisBaseTabT rc = 0: executed in: 0 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:21.240   absp_DebrisflDepth rc = 0: executed in: 0 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:21.357   absp_DebrisPreDmg rc = 0: executed in: 0 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:21.603   absp_DebrisPostDmg rc = 0: executed in: 0 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:21.727   absp_DebrisPreFSF rc = 0: executed in: 0 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:21.947   absp_DebrisPostFSF rc = 0: executed in: 0 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:22.740   absp_DebrisFinal rc = 0: executed in: 1 seconds
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:22.740   absp_Debris: 
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:22.740  Debris Clean up: started
+2025-04-19 22:21:22.744 -04:00 [INF] 2025/04/19 22:21:22.740  absp_DebrisDoIt rc = 0: Completed in: 0 minutes
+2025-04-19 22:21:22.954 -04:00 [INF] 2025/04/19 22:21:22.954 : ***********: **********************************************************
+2025-04-19 22:21:22.956 -04:00 [INF] 2025/04/19 22:21:22.956 : StudyCaseID: 1                         Shelter
+2025-04-19 22:21:22.958 -04:00 [INF] 2025/04/19 22:21:22.958 : ***********: **********************************************************
+2025-04-19 22:21:22.961 -04:00 [INF] 2025/04/19 22:21:22.961 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:21:22.963 -04:00 [INF] 2025/04/19 22:21:22.963 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:21:22.965 -04:00 [INF] 2025/04/19 22:21:22.965 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:21:22.967 -04:00 [INF] 2025/04/19 22:21:22.967 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:21:22.969 -04:00 [INF] 2025/04/19 22:21:22.969 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:21:22.972 -04:00 [INF] 2025/04/19 22:21:22.972 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:21:23.000 -04:00 [INF] 2025/04/19 22:21:23.000 modAnShelter.InitFloodAnalysis: ClearAllTables...
+2025-04-19 22:21:23.002 -04:00 [INF] 2025/04/19 22:21:23.002 modAnShelter.ClearAllTables: strSQL: DELETE FROM flFRShelter WHERE StudyCaseID = '1' AND AnalysisOptID = '0'
+2025-04-19 22:21:23.006 -04:00 [INF] 2025/04/19 22:21:23.006 modAnShelter.ClearAllTables: strSQL: DELETE FROM flAnShelterResult WHERE StudyCaseID = '1' AND AnalysisOptID = '0'
+2025-04-19 22:21:23.011 -04:00 [INF] 2025/04/19 22:21:23.011 modAnShelter.InitFloodAnalysis: Entering InitAreaDmgAnalysis...
+2025-04-19 22:21:24.550 -04:00 [INF] 2025/04/19 22:21:24.550 modAnShelter.RecordLoadingErr: Loading of projected shelter data completed successfully!
+2025-04-19 22:21:24.572 -04:00 [INF] 2025/04/19 22:21:24.572 modAnShelter.AnalyseDepthGrids: Entering GetPctAreaAffected
+2025-04-19 22:21:27.812 -04:00 [INF] 2025/04/19 22:21:27.812 modAnShelter.AnalyseDepthGrids: Completed GetPctAreaAffected
+2025-04-19 22:21:27.979 -04:00 [INF] 2025/04/19 22:21:27.979 modAnShelter.InitFloodAnalysis: Completed InitAreaDmgAnalysis!
+2025-04-19 22:21:27.983 -04:00 [INF] 2025/04/19 22:21:27.983 modAnShelter.InitFloodAnalysis: Entering CalculateShelterNeeds...
+2025-04-19 22:21:28.070 -04:00 [INF] 2025/04/19 22:21:27.993  absp_SHRDoIt: AnalysisBits = 2 AnalysisOptID = 0
+2025-04-19 22:21:28.070 -04:00 [INF] 2025/04/19 22:21:27.993  SHR Common Block: started
+2025-04-19 22:21:28.070 -04:00 [INF] 2025/04/19 22:21:28.067  SHR Common Block OK: executed in: 0 minutes
+2025-04-19 22:21:28.079 -04:00 [INF] 2025/04/19 22:21:28.079 modAnShelter.InitFloodAnalysis: Completed CalculateShelterNeeds!
+2025-04-19 22:22:27.422 -04:00 [INF] 2025/04/19 22:22:27.422 : ***********: **********************************************************
+2025-04-19 22:22:27.423 -04:00 [INF] 2025/04/19 22:22:27.423 : StudyCaseID: 1                     Area Weighted
+2025-04-19 22:22:27.425 -04:00 [INF] 2025/04/19 22:22:27.425 : ***********: **********************************************************
+2025-04-19 22:22:27.462 -04:00 [INF] 2025/04/19 22:22:27.462 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:22:27.465 -04:00 [INF] 2025/04/19 22:22:27.465 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:22:27.467 -04:00 [INF] 2025/04/19 22:22:27.467 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:22:27.470 -04:00 [INF] 2025/04/19 22:22:27.470 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:22:27.473 -04:00 [INF] 2025/04/19 22:22:27.473 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:22:27.476 -04:00 [INF] 2025/04/19 22:22:27.476 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:22:27.481 -04:00 [INF] 2025/04/19 22:22:27.481 hzFlAnDamageFn.modAnalyseFlood.ValidateAll: Beginning validations...
+2025-04-19 22:22:27.485 -04:00 [INF] 2025/04/19 22:22:27.485 hzFlAnDamageFn.modAnalyseFlood.ValidateAll: All validations have passed!
+2025-04-19 22:22:27.487 -04:00 [INF] 2025/04/19 22:22:27.487 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Entering...
+2025-04-19 22:22:27.697 -04:00 [INF] 2025/04/19 22:22:27.697 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Created CmbRes table
+2025-04-19 22:22:27.744 -04:00 [INF] 2025/04/19 22:22:27.744 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Created firstjoin table
+2025-04-19 22:22:27.791 -04:00 [INF] 2025/04/19 22:22:27.791 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Created secondjoin table
+2025-04-19 22:22:27.797 -04:00 [INF] 2025/04/19 22:22:27.797 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis: Depth grid path = C:\HazusData\Regions\Bartholomew_1\Bartholomew\Riverine\Depth
+2025-04-19 22:22:27.799 -04:00 [INF] 2025/04/19 22:22:27.799 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis: Executing DefineFloodAnalyse for rpd100
+2025-04-19 22:22:27.801 -04:00 [INF] 2025/04/19 22:22:27.801 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 1: rpd100 has a return period of 100
+2025-04-19 22:22:27.819 -04:00 [INF] 2025/04/19 22:22:27.819 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 5: AW rows exist!
+2025-04-19 22:22:27.821 -04:00 [INF] 2025/04/19 22:22:27.821 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 7: HAZUS will DELETE 'em!
+2025-04-19 22:22:27.822 -04:00 [INF] 2025/04/19 22:22:27.822 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 7: DELETE flAnAreaWeighted where StudyCaseID = 1 AND ReturnPeriodID = '100' AND AnalysisOptID = 0 AND ControllingHazard = 'R'
+2025-04-19 22:22:27.845 -04:00 [INF] 2025/04/19 22:22:27.845 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 8:  HazType =R and HazType enum = lcRiverine
+2025-04-19 22:22:27.875 -04:00 [INF] 2025/04/19 22:22:27.875 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 25: Reclassifying rpd100 to an integer grid
+2025-04-19 22:22:27.890 -04:00 [INF] 2025/04/19 22:22:27.890 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Entering for grid: ReClass
+2025-04-19 22:22:27.892 -04:00 [INF] 2025/04/19 22:22:27.892 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Path: C:\HazusData\Regions\Bartholomew_1\Bartholomew
+2025-04-19 22:22:28.601 -04:00 [INF] 2025/04/19 22:22:28.601 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 27: ReClass Reclassification successful!
+2025-04-19 22:22:28.633 -04:00 [INF] 2025/04/19 22:22:28.633 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 37: Exporting BlkGrid to table CenBlk...
+2025-04-19 22:22:28.812 -04:00 [INF] 2025/04/19 22:22:28.812 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 37: Exported to CenBlk with 2158 rows
+2025-04-19 22:22:28.846 -04:00 [INF] 2025/04/19 22:22:28.846 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 45: 2169 CBs in hzCensusBlock
+2025-04-19 22:22:28.851 -04:00 [INF] 2025/04/19 22:22:28.851 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 47: Performing extraction operations to create GrdCmb1...
+2025-04-19 22:22:29.469 -04:00 [INF] 2025/04/19 22:22:29.469 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Entering for grid: GrdCmb1
+2025-04-19 22:22:29.472 -04:00 [INF] 2025/04/19 22:22:29.472 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Path: C:\HazusData\Regions\Bartholomew_1\Bartholomew
+2025-04-19 22:22:29.976 -04:00 [INF] 2025/04/19 22:22:29.976 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 56: Extraction operations successful!
+2025-04-19 22:22:29.980 -04:00 [INF] 2025/04/19 22:22:29.980 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 57: Exporting GrdCmb1 to table GrdAttrib1...
+2025-04-19 22:22:30.141 -04:00 [INF] 2025/04/19 22:22:30.141 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 57: Exported GrdAttrib1 with 659 rows
+2025-04-19 22:22:30.167 -04:00 [INF] 2025/04/19 22:22:30.167 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 61: GrdAttrib1 raster field name = RAS68139
+2025-04-19 22:22:30.170 -04:00 [INF] 2025/04/19 22:22:30.170 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 62: DEBUG: pFilter.WhereClause = 'ReClass=999'
+2025-04-19 22:22:30.172 -04:00 [INF] 2025/04/19 22:22:30.172 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 63: DEBUG: pTable.DeleteSearchedRows(pFilter)
+2025-04-19 22:22:30.174 -04:00 [INF] 2025/04/19 22:22:30.174 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 64: Executing RelQryTab...
+2025-04-19 22:22:30.198 -04:00 [INF] 2025/04/19 22:22:30.198 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 64: Completed RelQryTab
+2025-04-19 22:22:30.200 -04:00 [INF] 2025/04/19 22:22:30.200 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 65: Exporting table CmbRes1...
+2025-04-19 22:22:30.404 -04:00 [INF] 2025/04/19 22:22:30.404 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 65: Exported CmbRes1 with 659 rows
+2025-04-19 22:22:30.419 -04:00 [INF] 2025/04/19 22:22:30.419 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 67: Executing CombineAllComRes...
+2025-04-19 22:22:30.447 -04:00 [INF] 2025/04/19 22:22:30.447 hzFlAnDamageFn.modAW.CombineAllComRes: strAccessDB: C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults.mdb
+2025-04-19 22:22:30.449 -04:00 [INF] 2025/04/19 22:22:30.449 hzFlAnDamageFn.modAW.CombineAllComRes: strSQL: DELETE FROM CmbRes
+2025-04-19 22:22:30.451 -04:00 [INF] 2025/04/19 22:22:30.451 hzFlAnDamageFn.modAW.CombineAllComRes: DELETE FROM CmbRes in hzFlAnResults. Records Affected: 0
+2025-04-19 22:22:30.463 -04:00 [INF] 2025/04/19 22:22:30.463 hzFlAnDamageFn.modAW.CombineAllComRes: INSERT INTO CmbRes (Value_, Count_,BlkGrid,Reclass,ObjectID_1,CensusBlock) SELECT Value_,Count_,RAS68139 as BlkGrid,Reclass,ObjectID_1,CensusBlock FROM CmbRes1 Records Affected: 659
+2025-04-19 22:22:30.517 -04:00 [INF] 2025/04/19 22:22:30.517 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 67: Completed CombineAllComRes
+2025-04-19 22:22:30.522 -04:00 [INF] 2025/04/19 22:22:30.522 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 71: Executing LoadAWMDBDataToSQL...
+2025-04-19 22:22:30.524 -04:00 [INF] 2025/04/19 22:22:30.524 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Started LoadAWMDBDataToSQL at = 0 hazardType = lcRiverine
+2025-04-19 22:22:30.529 -04:00 [INF] 2025/04/19 22:22:30.529 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Dropped  flAnGBSCenBlk
+2025-04-19 22:22:30.533 -04:00 [INF] 2025/04/19 22:22:30.533 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Created  flAnGBSCenBlk
+2025-04-19 22:22:30.535 -04:00 [INF] 2025/04/19 22:22:30.535 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: flAnGBSCenBlk and {studyCasePath}{AwConstants.MDB_RESULTS} =C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults.mdb
+2025-04-19 22:22:30.545 -04:00 [INF] 2025/04/19 22:22:30.545 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Setting columns flAnGBSCenBlk
+2025-04-19 22:22:32.041 -04:00 [INF] 2025/04/19 22:22:32.041 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Populated 2158 rows into flAnGBSCenBlk
+2025-04-19 22:22:37.058 -04:00 [INF] 2025/04/19 22:22:37.058 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Dropped  flAnGBSCmbRes
+2025-04-19 22:22:37.064 -04:00 [INF] 2025/04/19 22:22:37.064 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Created  flAnGBSCmbRes
+2025-04-19 22:22:37.066 -04:00 [INF] 2025/04/19 22:22:37.066 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: flAnGBSCmbRes and {studyCasePath}{AwConstants.MDB_RESULTS} =C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults.mdb
+2025-04-19 22:22:37.099 -04:00 [INF] 2025/04/19 22:22:37.099 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Setting columns  flAnGBSCmbRes, Actual RowCount=659
+2025-04-19 22:22:37.240 -04:00 [INF] 2025/04/19 22:22:37.240 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Populated 659 rows into flAnGBSCmbRes
+2025-04-19 22:22:42.242 -04:00 [INF] 2025/04/19 22:22:42.242 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Clear tempDB started...
+2025-04-19 22:22:42.347 -04:00 [INF] 2025/04/19 22:22:42.347 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Clear tempDB complete...
+2025-04-19 22:22:42.353 -04:00 [INF] 2025/04/19 22:22:42.353 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 71: Completed LoadAWMDBDataToSQL
+2025-04-19 22:22:42.358 -04:00 [INF] 2025/04/19 22:22:42.358 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 73: Executing UpdateMSDE...
+2025-04-19 22:22:42.467 -04:00 [INF] 2025/04/19 22:22:42.363  absp_GBSInsertAW: '100', 0, 'R' --FYI @StudyRegion='C:\HazusData\Regions\Bartholomew_1\, @StudyCaseName='Bartholomew', @StudyCaseID=1
+2025-04-19 22:22:42.467 -04:00 [INF] 2025/04/19 22:22:42.363  absp_GBSInsertAW: started
+2025-04-19 22:22:42.467 -04:00 [INF] 2025/04/19 22:22:42.363  absp_GBSInsertAW: flAnGBSCmbRes (R) rows=659
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.363  absp_GBSInsertAW: flAnGBSCenBlk (CR) rows=2158
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.363  absp_GBSInsertAW: DEBUG: select CensusBlock, sum(PctAffected) PctAffected from flAnGBSCombineAWTemp group by CensusBlock order by sum(PctAffected) desc
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.363  absp_GBSInsertAW: DEBUG: select CensusBlock, ReClass, PctAffected from flAnGBSCombineAWTemp order by CensusBlock asc, ReClass asc
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.377  absp_GBSInsertAW: flAnGBSCombineAWTemp (R) rows=659
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.377  absp_GBSInsertAW: DEBUG: BEFORE DELETE: flAnAreaWeighted rows=0
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.377  absp_GBSInsertAW: DEBUG: AFTER DELETE, BEFORE insert: flAnAreaWeighted rows=0
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.380  absp_GBSInsertAW: DEBUG: AFTER insert: flAnAreaWeighted rows=161
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.380  absp_GBSInsertAW: SC: Bartholomew flAnAreaWeighted rows=161
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.387  absp_GBSInsertAW: update flAnAreaWeighted set ft100 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 100
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.390  absp_GBSInsertAW: update flAnAreaWeighted set ft1000 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1000
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.393  absp_GBSInsertAW: update flAnAreaWeighted set ft1050 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1050
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.393  absp_GBSInsertAW: update flAnAreaWeighted set ft1100 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1100
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.397  absp_GBSInsertAW: update flAnAreaWeighted set ft1150 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1150
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.400  absp_GBSInsertAW: update flAnAreaWeighted set ft1200 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1200
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.400  absp_GBSInsertAW: update flAnAreaWeighted set ft1250 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1250
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.403  absp_GBSInsertAW: update flAnAreaWeighted set ft1300 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1300
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.407  absp_GBSInsertAW: update flAnAreaWeighted set ft1350 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1350
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.410  absp_GBSInsertAW: update flAnAreaWeighted set ft1400 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1400
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.413  absp_GBSInsertAW: update flAnAreaWeighted set ft1450 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1450
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.413  absp_GBSInsertAW: update flAnAreaWeighted set ft150 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 150
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.417  absp_GBSInsertAW: update flAnAreaWeighted set ft200 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 200
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.420  absp_GBSInsertAW: update flAnAreaWeighted set ft250 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 250
+2025-04-19 22:22:42.468 -04:00 [INF] 2025/04/19 22:22:42.463  absp_GBSInsertAW: DEBUG: AFTER update: flAnAreaWeighted rows=161
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.463  absp_GBSInsertAW OK: executed in: 0 minutes
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.463  absp_GBSInsertAW: DEBUG: AFTER commit: flAnAreaWeighted rows=161
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.423  absp_GBSInsertAW: update flAnAreaWeighted set ft300 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 300
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.427  absp_GBSInsertAW: update flAnAreaWeighted set ft350 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 350
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.430  absp_GBSInsertAW: update flAnAreaWeighted set ft400 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 400
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.433  absp_GBSInsertAW: update flAnAreaWeighted set ft450 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 450
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.433  absp_GBSInsertAW: update flAnAreaWeighted set ft50 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 50
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.437  absp_GBSInsertAW: update flAnAreaWeighted set ft500 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 500
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.440  absp_GBSInsertAW: update flAnAreaWeighted set ft550 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 550
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.443  absp_GBSInsertAW: update flAnAreaWeighted set ft600 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 600
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.443  absp_GBSInsertAW: update flAnAreaWeighted set ft650 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 650
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.447  absp_GBSInsertAW: update flAnAreaWeighted set ft700 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 700
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.450  absp_GBSInsertAW: update flAnAreaWeighted set ft750 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 750
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.453  absp_GBSInsertAW: update flAnAreaWeighted set ft800 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 800
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.457  absp_GBSInsertAW: update flAnAreaWeighted set ft850 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 850
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.457  absp_GBSInsertAW: update flAnAreaWeighted set ft900 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 900
+2025-04-19 22:22:42.469 -04:00 [INF] 2025/04/19 22:22:42.460  absp_GBSInsertAW: update flAnAreaWeighted set ft950 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 950
+2025-04-19 22:22:42.472 -04:00 [INF] 2025/04/19 22:22:42.472 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 73: Completed UpdateMSDE
+2025-04-19 22:22:42.708 -04:00 [INF] 2025/04/19 22:22:42.708 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 76: Done with Area Weighted calculations for rpd100
+2025-04-19 22:22:42.709 -04:00 [INF] 2025/04/19 22:22:42.709 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: Clear tempDB started...
+2025-04-19 22:22:42.718 -04:00 [INF] 2025/04/19 22:22:42.718 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: Clear tempDB complete...
+2025-04-19 22:22:42.723 -04:00 [INF] 2025/04/19 22:22:42.723 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis: Successfully completed DefineFloodAnalyse for rpd100
+2025-04-19 22:22:42.725 -04:00 [INF] 2025/04/19 22:22:42.725 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis:    *** ALL DEPTH GRIDS OK ***
+2025-04-19 22:22:42.783 -04:00 [INF] 2025/04/19 22:22:42.783 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: Starting GBS analysis
+2025-04-19 22:22:42.834 -04:00 [INF] 2025/04/19 22:22:42.834 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: Show_Redo_Anal_Val = False
+2025-04-19 22:22:42.839 -04:00 [INF] 2025/04/19 22:22:42.839 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: ExistResults = Exist
+2025-04-19 22:22:47.856 -04:00 [INF] 2025/04/19 22:22:47.856 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: DeleteResultsResponse = vbYes
+2025-04-19 22:22:47.993 -04:00 [INF] 2025/04/19 22:22:47.990  absp_GBSReturnPeriods: @haztype=1, @StudyCaseId=1, @AnalysisOptID=0
+2025-04-19 22:22:47.993 -04:00 [INF] 2025/04/19 22:22:47.990  absp_GBSReturnPeriods: started
+2025-04-19 22:22:47.993 -04:00 [INF] 2025/04/19 22:22:47.990  absp_GBSReturnPeriods #RPs=1, #CBs=161, #CBs-per-batch=99999: executed in: 0 seconds
+2025-04-19 22:22:47.993 -04:00 [INF] 2025/04/19 22:22:47.990  absp_GBSReturnPeriods: finished OK 1 batch-to-run
+2025-04-19 22:22:47.996 -04:00 [INF] 2025/04/19 22:22:47.996 hzFlAnStockDmg.modAnBldgStock.AssignProcessCodes: @rc=1
+2025-04-19 22:22:48.000 -04:00 [INF] 2025/04/19 22:22:48.000 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: NumRun: 1
+2025-04-19 22:22:48.007 -04:00 [INF] 2025/04/19 22:22:48.007 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: RegionsPath=C:\HazusData\Regions\Bartholomew_1\
+2025-04-19 22:22:48.011 -04:00 [INF] 2025/04/19 22:22:48.011 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: StudyCaseName=Bartholomew
+2025-04-19 22:22:48.013 -04:00 [INF] 2025/04/19 22:22:48.013 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter AnalysisBits=15
+2025-04-19 22:22:48.015 -04:00 [INF] 2025/04/19 22:22:48.015 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter AnalysisOptID=0
+2025-04-19 22:22:48.018 -04:00 [INF] 2025/04/19 22:22:48.018 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter Debug=N
+2025-04-19 22:22:48.021 -04:00 [INF] 2025/04/19 22:22:48.021 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter haztype=1
+2025-04-19 22:22:48.036 -04:00 [INF] 2025/04/19 22:22:48.036 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: RegDivide=1
+2025-04-19 22:22:48.038 -04:00 [INF] 2025/04/19 22:22:48.038 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter proccode=1
+2025-04-19 22:23:02.113 -04:00 [INF] 2025/04/19 22:22:48.040    -----------: ----------------------------------------------------------
+2025-04-19 22:23:02.113 -04:00 [INF] 2025/04/19 22:22:48.040    StudyCaseID: 1                   GBS Analysis
+2025-04-19 22:23:02.113 -04:00 [INF] 2025/04/19 22:22:48.040    -----------: ----------------------------------------------------------
+2025-04-19 22:23:02.113 -04:00 [INF] 2025/04/19 22:22:48.043    absp_hdd_state: C drive has 573543 MB free space; tempdb is 192MB; templog is 8MB
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:48.043    absp_GBSDoIt: absp_GBSDoIt 15, 0, 'N', 1, 1
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:51.550  0.GBS Common: started
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:51.700    -----------: ----------------------------------------------------------
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:51.700      Registry : Settings.xml <DivideGBS> = 1, DebugGBS = N
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:51.700    -----------: ----------------------------------------------------------
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:51.700    absp_GBSBasePrep:: 
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:51.700    absp_GBSBasePrep:: There is/are 0 user defined SchemeID(s) being used in distribution table(s).
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:58.267    absp_GBSBasePrep:: 
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:58.307  : "BACKUP LOG is terminating abnormally."  Line: 1  No: 3013  Sev: 16  State: 1
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:59.150  0.GBS Common OK: executed in: 00 hour(s): 00 minute(s): 08 second(s).
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:59.150    absp_hdd_state: C drive has 573230 MB free space; tempdb is 192MB; templog is 264MB
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:59.150  1.GBS Building and Cont Damage: started
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:59.743  1.GBS Building and Cont Damage OK: executed in: 00 hour(s): 00 minute(s): 00 second(s).
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:59.743    absp_hdd_state: C drive has 573230 MB free space; tempdb is 192MB; templog is 264MB
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:22:59.743  2.GBS Economic Losses: started
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:01.340  2.GBS Economic Losses OK: executed in: 00 hour(s): 00 minute(s): 02 second(s).
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:01.340    absp_hdd_state: C drive has 573230 MB free space; tempdb is 192MB; templog is 264MB
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:01.340  4.GBS Count Damage: started
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:01.783  4.GBS Count Damage OK: executed in: 00 hour(s): 00 minute(s): 00 second(s).
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:01.787    absp_hdd_state: C drive has 573230 MB free space; tempdb is 192MB; templog is 264MB
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:01.787  8.GBS Depreciated Economic Loss: started
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:02.107  8.GBS Depreciated Economic Loss OK: executed in: 00 hour(s): 00 minute(s): 01 second(s).
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:02.107    absp_hdd_state: C drive has 573230 MB free space; tempdb is 192MB; templog is 264MB
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:02.107  9.GBS Clean up: 
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:02.110    absp_hdd_state: C drive has 573230 MB free space; tempdb is 192MB; templog is 264MB
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:02.110  ------------------------: -------------------------------------------------------------
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:02.110  GBS RUN:       COMPLETE : Completed in: 00 hour(s): 00 minute(s): 14 second(s). rc= 0
+2025-04-19 22:23:02.114 -04:00 [INF] 2025/04/19 22:23:02.110  ------------------------: -------------------------------------------------------------
+2025-04-19 22:23:02.136 -04:00 [INF] 2025/04/19 22:23:02.136 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Done
+2025-04-19 22:23:02.185 -04:00 [INF] 2025/04/19 22:23:02.185 : ***********: **********************************************************
+2025-04-19 22:23:02.187 -04:00 [INF] 2025/04/19 22:23:02.187 : StudyCaseID: 1                     Essential Facilities
+2025-04-19 22:23:02.189 -04:00 [INF] 2025/04/19 22:23:02.189 : ***********: **********************************************************
+2025-04-19 22:23:02.237 -04:00 [INF] 2025/04/19 22:23:02.237 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:23:02.239 -04:00 [INF] 2025/04/19 22:23:02.239 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:23:02.241 -04:00 [INF] 2025/04/19 22:23:02.241 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:23:02.244 -04:00 [INF] 2025/04/19 22:23:02.244 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:23:02.245 -04:00 [INF] 2025/04/19 22:23:02.245 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:23:02.248 -04:00 [INF] 2025/04/19 22:23:02.248 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:23:05.592 -04:00 [INF] 2025/04/19 22:23:05.592 hzFlAnEFDmg.modAnEF.ValidateParms: Done...
+2025-04-19 22:23:05.987 -04:00 [INF] 2025/04/19 22:23:05.987 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Starting RunValidHazardCalc()...
+2025-04-19 22:23:06.178 -04:00 [INF] 2025/04/19 22:23:06.178 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** EMERGENCYCTR ***
+2025-04-19 22:23:06.180 -04:00 [INF] 2025/04/19 22:23:06.180 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.182 -04:00 [INF] 2025/04/19 22:23:06.182 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:23:06.184 -04:00 [INF] 2025/04/19 22:23:06.184 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.343 -04:00 [INF] 2025/04/19 22:23:06.343 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** FIRESTATION ***
+2025-04-19 22:23:06.344 -04:00 [INF] 2025/04/19 22:23:06.344 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.349 -04:00 [INF] 2025/04/19 22:23:06.349 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:23:06.351 -04:00 [INF] 2025/04/19 22:23:06.351 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.506 -04:00 [INF] 2025/04/19 22:23:06.506 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** CAREFLTY ***
+2025-04-19 22:23:06.509 -04:00 [INF] 2025/04/19 22:23:06.509 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.511 -04:00 [INF] 2025/04/19 22:23:06.511 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:23:06.513 -04:00 [INF] 2025/04/19 22:23:06.513 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.669 -04:00 [INF] 2025/04/19 22:23:06.669 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** POLICESTATION ***
+2025-04-19 22:23:06.671 -04:00 [INF] 2025/04/19 22:23:06.671 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.673 -04:00 [INF] 2025/04/19 22:23:06.673 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:23:06.675 -04:00 [INF] 2025/04/19 22:23:06.675 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.845 -04:00 [INF] 2025/04/19 22:23:06.845 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** SCHOOL ***
+2025-04-19 22:23:06.847 -04:00 [INF] 2025/04/19 22:23:06.847 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.850 -04:00 [INF] 2025/04/19 22:23:06.850 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-19 22:23:06.852 -04:00 [INF] 2025/04/19 22:23:06.852 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-19 22:23:06.863 -04:00 [INF] 2025/04/19 22:23:06.863 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: RunValidHazardCalc() completed!
+2025-04-19 22:23:07.450 -04:00 [INF] 2025/04/19 22:23:07.450 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:23:07.470 -04:00 [INF] 2025/04/19 22:23:07.470 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFREmergencyCtr WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:23:07.472 -04:00 [INF] 2025/04/19 22:23:07.472 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFREmergencyCtr WHERE Active_ind = 'A'
+2025-04-19 22:23:07.696 -04:00 [INF] 2025/04/19 22:23:07.696 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:23:07.715 -04:00 [INF] 2025/04/19 22:23:07.715 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRFireStation WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:23:07.718 -04:00 [INF] 2025/04/19 22:23:07.718 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRFireStation WHERE Active_ind = 'A'
+2025-04-19 22:23:07.898 -04:00 [INF] 2025/04/19 22:23:07.898 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:23:07.917 -04:00 [INF] 2025/04/19 22:23:07.917 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRCareFlty WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:23:07.920 -04:00 [INF] 2025/04/19 22:23:07.920 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRCareFlty WHERE Active_ind = 'A'
+2025-04-19 22:23:08.113 -04:00 [INF] 2025/04/19 22:23:08.113 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:23:08.133 -04:00 [INF] 2025/04/19 22:23:08.133 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRPoliceStation WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:23:08.135 -04:00 [INF] 2025/04/19 22:23:08.135 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRPoliceStation WHERE Active_ind = 'A'
+2025-04-19 22:23:08.315 -04:00 [INF] 2025/04/19 22:23:08.315 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-19 22:23:08.336 -04:00 [INF] 2025/04/19 22:23:08.336 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRSchool WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-19 22:23:08.338 -04:00 [INF] 2025/04/19 22:23:08.338 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRSchool WHERE Active_ind = 'A'
+2025-04-19 22:23:08.411 -04:00 [INF] 2025/04/19 22:23:08.411 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:23:08.413 -04:00 [INF] 2025/04/19 22:23:08.413 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:23:08.416 -04:00 [INF] 2025/04/19 22:23:08.416 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:23:08.418 -04:00 [INF] 2025/04/19 22:23:08.418 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:23:08.420 -04:00 [INF] 2025/04/19 22:23:08.420 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:23:08.423 -04:00 [INF] 2025/04/19 22:23:08.423 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:23:08.432 -04:00 [INF] 2025/04/19 22:23:08.432 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.InitFloodAnalysisFn): No error messages, proceeding
+2025-04-19 22:23:08.520 -04:00 [INF] 2025/04/19 22:23:08.520 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.RunAnalysis): rpd100 of C:\HazusData\Regions\Bartholomew_1\Bartholomew\Riverine\Depth
+2025-04-19 22:23:08.658 -04:00 [INF] 2025/04/19 22:23:08.658 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.DefineEFAnalyse):700: Assigned DDFs used for Buildings: 0, Contents: 0, Inventory: 0
+2025-04-19 22:23:08.660 -04:00 [INF] 2025/04/19 22:23:08.660 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.DefineEFAnalyse):700: Default DDFs used for Buildings: 0, Contents: 0, Inventory: 0
+2025-04-19 22:23:08.662 -04:00 [INF] 2025/04/19 22:23:08.662 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.DefineEFAnalyse):700: Total 0 UDFs analyzed
+2025-04-19 22:23:08.665 -04:00 [INF] 2025/04/19 22:23:08.665 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.RunAnalysis): rpd100 of C:\HazusData\Regions\Bartholomew_1\Bartholomew\Riverine\Depth
+2025-04-19 22:23:23.798 -04:00 [INF] 2025/04/19 22:23:23.798 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.InitFloodAnalysisFn): About to upload the results...
+2025-04-19 22:23:23.821 -04:00 [INF] 2025/04/19 22:23:23.821 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.UploadResults): delete flFRUserDefinedFlty where StudyCaseID = 1 and AnalysisOptID = 0
+2025-04-19 22:23:23.823 -04:00 [INF] 2025/04/19 22:23:23.823 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.UploadResults): Select * from flUDEFResults where Active_ind = 'A'
+2025-04-19 22:23:23.829 -04:00 [INF] 2025/04/19 22:23:23.829 Module UDEF(hzFlAnUDEFDmg.modAnUDEF.InitFloodAnalysisFn): uploaded the results!
+2025-04-19 22:23:23.853 -04:00 [INF] 2025/04/19 22:23:23.853 : ***********: **********************************************************
+2025-04-19 22:23:23.855 -04:00 [INF] 2025/04/19 22:23:23.855 : StudyCaseID: 1                  Transportation Systems
+2025-04-19 22:23:23.857 -04:00 [INF] 2025/04/19 22:23:23.857 : ***********: **********************************************************
+2025-04-19 22:23:23.859 -04:00 [INF] 2025/04/19 22:23:23.859 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:23:23.862 -04:00 [INF] 2025/04/19 22:23:23.862 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:23:23.865 -04:00 [INF] 2025/04/19 22:23:23.865 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:23:23.866 -04:00 [INF] 2025/04/19 22:23:23.866 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:23:23.869 -04:00 [INF] 2025/04/19 22:23:23.869 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:23:23.871 -04:00 [INF] 2025/04/19 22:23:23.871 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:23:23.917 -04:00 [INF] 2025/04/19 22:23:23.917 Module Trans(hzFlAnTransDmg.modAnTrans.RunAnalysis): +++ Running analysis for rpd100 - R +++
+2025-04-19 22:23:24.041 -04:00 [INF] 2025/04/19 22:23:24.041 Module Trans(hzFlAnTransDmg.modAnTrans.DefineTransAnalysis): After GetPointCol(hzHighwayBridge, HighwayBridgeID): colStrAllBridgeIDs.Count = 91
+2025-04-19 22:23:24.043 -04:00 [INF] 2025/04/19 22:23:24.043 Module Trans(hzFlAnTransDmg.modAnTrans.DefineTransAnalysis): After GetPointCol(hzRailwayBridge, RailwayBridgeID): colStrAllBridgeIDs.Count = 91
+2025-04-19 22:23:24.044 -04:00 [INF] 2025/04/19 22:23:24.044 Module Trans(hzFlAnTransDmg.modAnTrans.DefineTransAnalysis): After GetPointCol(hzLightRailBridge, LightRailBridgeID): colStrAllBridgeIDs.Count = 91
+2025-04-19 22:23:24.211 -04:00 [INF] 2025/04/19 22:23:24.211 Module Trans(hzFlAnTransDmg.modAnTrans.CalculateThat): Updated the flFRHighwayBridge table!
+2025-04-19 22:23:24.219 -04:00 [INF] 2025/04/19 22:23:24.219 Module Trans(hzFlAnTransDmg.modAnTrans.CalculateThat): Updated the flFRRailwayBridge table!
+2025-04-19 22:23:24.241 -04:00 [INF] 2025/04/19 22:23:24.241 Module Trans(hzFlAnTransDmg.modAnTrans.CalculateThat): Updated the flFRLightRailBridge table!
+2025-04-19 22:23:24.273 -04:00 [INF] 2025/04/19 22:23:24.273 : ***********: **********************************************************
+2025-04-19 22:23:24.274 -04:00 [INF] 2025/04/19 22:23:24.274 : StudyCaseID: 1                  Utility Systems
+2025-04-19 22:23:24.278 -04:00 [INF] 2025/04/19 22:23:24.278 : ***********: **********************************************************
+2025-04-19 22:23:24.280 -04:00 [INF] 2025/04/19 22:23:24.280 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:23:24.283 -04:00 [INF] 2025/04/19 22:23:24.283 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:23:24.286 -04:00 [INF] 2025/04/19 22:23:24.286 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:23:24.288 -04:00 [INF] 2025/04/19 22:23:24.288 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:23:24.290 -04:00 [INF] 2025/04/19 22:23:24.290 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:23:24.292 -04:00 [INF] 2025/04/19 22:23:24.292 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:23:27.721 -04:00 [INF] 2025/04/19 22:23:27.721 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.ValidateParmsA): Done...
+2025-04-19 22:23:28.155 -04:00 [INF] 2025/04/19 22:23:28.155 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** POTABLEWATERFLTY ***
+2025-04-19 22:23:28.158 -04:00 [INF] 2025/04/19 22:23:28.158 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.160 -04:00 [INF] 2025/04/19 22:23:28.160 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 0 utilities affected.
+2025-04-19 22:23:28.162 -04:00 [INF] 2025/04/19 22:23:28.162 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.297 -04:00 [INF] 2025/04/19 22:23:28.297 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** WASTEWATERFLTY ***
+2025-04-19 22:23:28.298 -04:00 [INF] 2025/04/19 22:23:28.298 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.317 -04:00 [INF] 2025/04/19 22:23:28.317 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): FacilityID: IN000217
+2025/04/19 22:23:28.317 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      UtilityClass: WDFLT
+2025/04/19 22:23:28.317 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Damage%: 9.591186
+2025/04/19 22:23:28.317 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Loss: 12883.638738894
+2025-04-19 22:23:28.319 -04:00 [INF] 2025/04/19 22:23:28.319 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.347 -04:00 [INF] 2025/04/19 22:23:28.347 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): FacilityID: IN000312
+2025/04/19 22:23:28.347 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      UtilityClass: WDFLT
+2025/04/19 22:23:28.347 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Damage%: 18.486814
+2025/04/19 22:23:28.347 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Loss: 24832.949023106
+2025-04-19 22:23:28.350 -04:00 [INF] 2025/04/19 22:23:28.350 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.364 -04:00 [INF] 2025/04/19 22:23:28.364 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): FacilityID: IN000468
+2025/04/19 22:23:28.364 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      UtilityClass: WDFLT
+2025/04/19 22:23:28.364 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Damage%: 28.517946
+2025/04/19 22:23:28.364 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Loss: 38307.557984934
+2025-04-19 22:23:28.366 -04:00 [INF] 2025/04/19 22:23:28.366 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.369 -04:00 [INF] 2025/04/19 22:23:28.369 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 3 utilities affected.
+2025-04-19 22:23:28.372 -04:00 [INF] 2025/04/19 22:23:28.372 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.504 -04:00 [INF] 2025/04/19 22:23:28.504 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** OILFLTY ***
+2025-04-19 22:23:28.506 -04:00 [INF] 2025/04/19 22:23:28.506 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.509 -04:00 [INF] 2025/04/19 22:23:28.509 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 0 utilities affected.
+2025-04-19 22:23:28.510 -04:00 [INF] 2025/04/19 22:23:28.510 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.652 -04:00 [INF] 2025/04/19 22:23:28.652 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** NATURALGASFLTY ***
+2025-04-19 22:23:28.653 -04:00 [INF] 2025/04/19 22:23:28.653 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:28.655 -04:00 [INF] 2025/04/19 22:23:28.655 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 0 utilities affected.
+2025-04-19 22:23:28.657 -04:00 [INF] 2025/04/19 22:23:28.657 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-19 22:23:29.025 -04:00 [INF] 2025/04/19 22:23:29.025 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 0
+2025-04-19 22:23:29.413 -04:00 [INF] 2025/04/19 22:23:29.413 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 3
+2025-04-19 22:23:29.833 -04:00 [INF] 2025/04/19 22:23:29.833 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 0
+2025-04-19 22:23:30.219 -04:00 [INF] 2025/04/19 22:23:30.219 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 0
+2025-04-19 22:23:30.276 -04:00 [INF] 2025/04/19 22:23:30.276 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.InitFloodAnalysis): Done...
+2025-04-19 22:23:30.340 -04:00 [INF] 2025/04/19 22:23:30.340 : ***********: **********************************************************
+2025-04-19 22:23:30.342 -04:00 [INF] 2025/04/19 22:23:30.342 : StudyCaseID: 1                  Vehicle Damage
+2025-04-19 22:23:30.344 -04:00 [INF] 2025/04/19 22:23:30.344 : ***********: **********************************************************
+2025-04-19 22:23:30.347 -04:00 [INF] 2025/04/19 22:23:30.347 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:23:30.350 -04:00 [INF] 2025/04/19 22:23:30.350 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:23:30.354 -04:00 [INF] 2025/04/19 22:23:30.354 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:23:30.356 -04:00 [INF] 2025/04/19 22:23:30.356 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:23:30.357 -04:00 [INF] 2025/04/19 22:23:30.357 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:23:30.359 -04:00 [INF] 2025/04/19 22:23:30.359 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:23:30.438 -04:00 [INF] 2025/04/19 22:23:30.380  absp_VehDoIt: 
+2025-04-19 22:23:30.438 -04:00 [INF] 2025/04/19 22:23:30.380  Vehicles Analysis Block: started
+2025-04-19 22:23:30.438 -04:00 [INF] 2025/04/19 22:23:30.433  Vehicle Clean up: started
+2025-04-19 22:23:30.438 -04:00 [INF] 2025/04/19 22:23:30.437  Vehicle Clean up OK: executed in: 0 seconds
+2025-04-19 22:23:30.438 -04:00 [INF] 2025/04/19 22:23:30.437  absp_VehDoIt rc = 0: executed in: 0 minutes
+2025-04-19 22:23:30.509 -04:00 [INF] 2025/04/19 22:23:30.509 : ***********: **********************************************************
+2025-04-19 22:23:30.511 -04:00 [INF] 2025/04/19 22:23:30.511 : StudyCaseID: 1                         Debris
+2025-04-19 22:23:30.515 -04:00 [INF] 2025/04/19 22:23:30.515 : ***********: **********************************************************
+2025-04-19 22:23:30.517 -04:00 [INF] 2025/04/19 22:23:30.517 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:23:30.520 -04:00 [INF] 2025/04/19 22:23:30.520 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:23:30.522 -04:00 [INF] 2025/04/19 22:23:30.522 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:23:30.525 -04:00 [INF] 2025/04/19 22:23:30.525 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:23:30.526 -04:00 [INF] 2025/04/19 22:23:30.526 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:23:30.528 -04:00 [INF] 2025/04/19 22:23:30.528 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:23:51.570 -04:00 [INF] 2025/04/19 22:23:51.563  absp_GBSReturnPeriods: @haztype=1, @StudyCaseId=1, @AnalysisOptID=0
+2025-04-19 22:23:51.570 -04:00 [INF] 2025/04/19 22:23:51.563  absp_GBSReturnPeriods: started
+2025-04-19 22:23:51.570 -04:00 [INF] 2025/04/19 22:23:51.567  absp_GBSReturnPeriods #RPs=1, #CBs=161, #CBs-per-batch=99999: executed in: 0 seconds
+2025-04-19 22:23:51.570 -04:00 [INF] 2025/04/19 22:23:51.567  absp_GBSReturnPeriods: finished OK 1 batch-to-run
+2025-04-19 22:23:53.341 -04:00 [INF] 2025/04/19 22:23:51.583  absp_DebrisDoIt: 
+2025-04-19 22:23:53.341 -04:00 [INF] 2025/04/19 22:23:51.583   absp_Debris: 
+2025-04-19 22:23:53.341 -04:00 [INF] 2025/04/19 22:23:51.583  Debris Analysis Block: started
+2025-04-19 22:23:53.341 -04:00 [INF] 2025/04/19 22:23:51.660   absp_DebrisYearBuilt rc = 0: executed in: 0 seconds
+2025-04-19 22:23:53.341 -04:00 [INF] 2025/04/19 22:23:51.707   absp_DebrisSchemeSOccup rc = 0: executed in: 0 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:51.740   absp_DebrisSOccupCLR rc = 0: executed in: 0 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:51.913   absp_DebrisYearBuiltReduced rc = 0: executed in: 0 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:51.920   absp_DebrisBaseTabT rc = 0: executed in: 0 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:51.923   absp_DebrisflDepth rc = 0: executed in: 0 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:52.037   absp_DebrisPreDmg rc = 0: executed in: 1 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:52.283   absp_DebrisPostDmg rc = 0: executed in: 0 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:52.393   absp_DebrisPreFSF rc = 0: executed in: 0 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:52.600   absp_DebrisPostFSF rc = 0: executed in: 0 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:53.337   absp_DebrisFinal rc = 0: executed in: 1 seconds
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:53.340   absp_Debris: 
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:53.340  Debris Clean up: started
+2025-04-19 22:23:53.342 -04:00 [INF] 2025/04/19 22:23:53.340  absp_DebrisDoIt rc = 0: Completed in: 0 minutes
+2025-04-19 22:23:53.418 -04:00 [INF] 2025/04/19 22:23:53.418 : ***********: **********************************************************
+2025-04-19 22:23:53.420 -04:00 [INF] 2025/04/19 22:23:53.420 : StudyCaseID: 1                         Shelter
+2025-04-19 22:23:53.423 -04:00 [INF] 2025/04/19 22:23:53.423 : ***********: **********************************************************
+2025-04-19 22:23:53.425 -04:00 [INF] 2025/04/19 22:23:53.425 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-19 22:23:53.428 -04:00 [INF] 2025/04/19 22:23:53.428 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-19 22:23:53.432 -04:00 [INF] 2025/04/19 22:23:53.432 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-19 22:23:53.436 -04:00 [INF] 2025/04/19 22:23:53.436 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-19 22:23:53.439 -04:00 [INF] 2025/04/19 22:23:53.439 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-19 22:23:53.441 -04:00 [INF] 2025/04/19 22:23:53.441 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-19 22:23:57.930 -04:00 [INF] 2025/04/19 22:23:57.930 modAnShelter.InitFloodAnalysis: ClearAllTables...
+2025-04-19 22:23:57.932 -04:00 [INF] 2025/04/19 22:23:57.932 modAnShelter.ClearAllTables: strSQL: DELETE FROM flFRShelter WHERE StudyCaseID = '1' AND AnalysisOptID = '0'
+2025-04-19 22:23:57.946 -04:00 [INF] 2025/04/19 22:23:57.946 modAnShelter.ClearAllTables: strSQL: DELETE FROM flAnShelterResult WHERE StudyCaseID = '1' AND AnalysisOptID = '0'
+2025-04-19 22:23:57.953 -04:00 [INF] 2025/04/19 22:23:57.953 modAnShelter.InitFloodAnalysis: Entering InitAreaDmgAnalysis...
+2025-04-19 22:23:59.474 -04:00 [INF] 2025/04/19 22:23:59.474 modAnShelter.RecordLoadingErr: Loading of projected shelter data completed successfully!
+2025-04-19 22:23:59.499 -04:00 [INF] 2025/04/19 22:23:59.499 modAnShelter.AnalyseDepthGrids: Entering GetPctAreaAffected
+2025-04-19 22:24:02.797 -04:00 [INF] 2025/04/19 22:24:02.797 modAnShelter.AnalyseDepthGrids: Completed GetPctAreaAffected
+2025-04-19 22:24:02.963 -04:00 [INF] 2025/04/19 22:24:02.963 modAnShelter.InitFloodAnalysis: Completed InitAreaDmgAnalysis!
+2025-04-19 22:24:02.967 -04:00 [INF] 2025/04/19 22:24:02.967 modAnShelter.InitFloodAnalysis: Entering CalculateShelterNeeds...
+2025-04-19 22:24:03.032 -04:00 [INF] 2025/04/19 22:24:02.973  absp_SHRDoIt: AnalysisBits = 2 AnalysisOptID = 0
+2025-04-19 22:24:03.032 -04:00 [INF] 2025/04/19 22:24:02.973  SHR Common Block: started
+2025-04-19 22:24:03.032 -04:00 [INF] 2025/04/19 22:24:03.030  SHR Common Block OK: executed in: 0 minutes
+2025-04-19 22:24:03.041 -04:00 [INF] 2025/04/19 22:24:03.041 modAnShelter.InitFloodAnalysis: Completed CalculateShelterNeeds!
+2025-04-24 20:05:55.756 -04:00 [INF] 2025/04/24 20:05:55.756 : ***********: **********************************************************
+2025-04-24 20:05:55.760 -04:00 [INF] 2025/04/24 20:05:55.760 : StudyCaseID: 1                     Area Weighted
+2025-04-24 20:05:55.763 -04:00 [INF] 2025/04/24 20:05:55.763 : ***********: **********************************************************
+2025-04-24 20:05:55.995 -04:00 [INF] 2025/04/24 20:05:55.995 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-24 20:05:55.999 -04:00 [INF] 2025/04/24 20:05:55.999 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-24 20:05:56.003 -04:00 [INF] 2025/04/24 20:05:56.003 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-24 20:05:56.007 -04:00 [INF] 2025/04/24 20:05:56.007 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-24 20:05:56.013 -04:00 [INF] 2025/04/24 20:05:56.013 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-24 20:05:56.016 -04:00 [INF] 2025/04/24 20:05:56.016 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-24 20:05:56.022 -04:00 [INF] 2025/04/24 20:05:56.022 hzFlAnDamageFn.modAnalyseFlood.ValidateAll: Beginning validations...
+2025-04-24 20:05:56.027 -04:00 [INF] 2025/04/24 20:05:56.027 hzFlAnDamageFn.modAnalyseFlood.ValidateAll: All validations have passed!
+2025-04-24 20:05:56.031 -04:00 [INF] 2025/04/24 20:05:56.031 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Entering...
+2025-04-24 20:05:56.551 -04:00 [INF] 2025/04/24 20:05:56.551 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Created CmbRes table
+2025-04-24 20:05:56.664 -04:00 [INF] 2025/04/24 20:05:56.664 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Created firstjoin table
+2025-04-24 20:05:56.772 -04:00 [INF] 2025/04/24 20:05:56.772 hzFlAnDamageFn.modAnalyseFlood.RunValidHazardCalc: Created secondjoin table
+2025-04-24 20:05:56.779 -04:00 [INF] 2025/04/24 20:05:56.779 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis: Depth grid path = C:\HazusData\Regions\Bartholomew_1\Bartholomew\Riverine\Depth
+2025-04-24 20:05:56.781 -04:00 [INF] 2025/04/24 20:05:56.781 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis: Executing DefineFloodAnalyse for RPD100
+2025-04-24 20:05:56.802 -04:00 [INF] 2025/04/24 20:05:56.802 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 1: RPD100 has a return period of 100
+2025-04-24 20:05:56.846 -04:00 [INF] 2025/04/24 20:05:56.846 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 5: AW rows exist!
+2025-04-24 20:05:56.851 -04:00 [INF] 2025/04/24 20:05:56.851 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 7: HAZUS will DELETE 'em!
+2025-04-24 20:05:56.854 -04:00 [INF] 2025/04/24 20:05:56.854 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 7: DELETE flAnAreaWeighted where StudyCaseID = 1 AND ReturnPeriodID = '100' AND AnalysisOptID = 0 AND ControllingHazard = 'R'
+2025-04-24 20:05:56.917 -04:00 [INF] 2025/04/24 20:05:56.917 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 8:  HazType =R and HazType enum = lcRiverine
+2025-04-24 20:05:57.194 -04:00 [INF] 2025/04/24 20:05:57.194 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 25: Reclassifying RPD100 to an integer grid
+2025-04-24 20:05:57.296 -04:00 [INF] 2025/04/24 20:05:57.296 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Entering for grid: ReClass
+2025-04-24 20:05:57.299 -04:00 [INF] 2025/04/24 20:05:57.299 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Path: C:\HazusData\Regions\Bartholomew_1\Bartholomew
+2025-04-24 20:06:03.298 -04:00 [INF] 2025/04/24 20:06:03.298 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 27: ReClass Reclassification successful!
+2025-04-24 20:06:03.410 -04:00 [INF] 2025/04/24 20:06:03.410 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 37: Exporting BlkGrid to table CenBlk...
+2025-04-24 20:06:03.838 -04:00 [INF] 2025/04/24 20:06:03.838 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 37: Exported to CenBlk with 2158 rows
+2025-04-24 20:06:03.938 -04:00 [INF] 2025/04/24 20:06:03.938 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 45: 2169 CBs in hzCensusBlock
+2025-04-24 20:06:03.979 -04:00 [INF] 2025/04/24 20:06:03.979 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 47: Performing extraction operations to create GrdCmb1...
+2025-04-24 20:06:04.726 -04:00 [INF] 2025/04/24 20:06:04.726 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Entering for grid: GrdCmb1
+2025-04-24 20:06:04.728 -04:00 [INF] 2025/04/24 20:06:04.728 Module Common Raster(hzFlCommon.modRaster.MakePermanent): Path: C:\HazusData\Regions\Bartholomew_1\Bartholomew
+2025-04-24 20:06:05.426 -04:00 [INF] 2025/04/24 20:06:05.426 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 56: Extraction operations successful!
+2025-04-24 20:06:05.429 -04:00 [INF] 2025/04/24 20:06:05.429 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 57: Exporting GrdCmb1 to table GrdAttrib1...
+2025-04-24 20:06:05.736 -04:00 [INF] 2025/04/24 20:06:05.736 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 57: Exported GrdAttrib1 with 659 rows
+2025-04-24 20:06:05.746 -04:00 [INF] 2025/04/24 20:06:05.746 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 61: GrdAttrib1 raster field name = RAS5225
+2025-04-24 20:06:05.748 -04:00 [INF] 2025/04/24 20:06:05.748 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 62: DEBUG: pFilter.WhereClause = 'ReClass=999'
+2025-04-24 20:06:05.751 -04:00 [INF] 2025/04/24 20:06:05.751 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 63: DEBUG: pTable.DeleteSearchedRows(pFilter)
+2025-04-24 20:06:05.754 -04:00 [INF] 2025/04/24 20:06:05.754 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 64: Executing RelQryTab...
+2025-04-24 20:06:05.782 -04:00 [INF] 2025/04/24 20:06:05.782 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 64: Completed RelQryTab
+2025-04-24 20:06:05.785 -04:00 [INF] 2025/04/24 20:06:05.785 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 65: Exporting table CmbRes1...
+2025-04-24 20:06:06.038 -04:00 [INF] 2025/04/24 20:06:06.038 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 65: Exported CmbRes1 with 659 rows
+2025-04-24 20:06:06.053 -04:00 [INF] 2025/04/24 20:06:06.053 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 67: Executing CombineAllComRes...
+2025-04-24 20:06:06.430 -04:00 [INF] 2025/04/24 20:06:06.430 hzFlAnDamageFn.modAW.CombineAllComRes: strAccessDB: C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults.mdb
+2025-04-24 20:06:06.432 -04:00 [INF] 2025/04/24 20:06:06.432 hzFlAnDamageFn.modAW.CombineAllComRes: strSQL: DELETE FROM CmbRes
+2025-04-24 20:06:06.435 -04:00 [INF] 2025/04/24 20:06:06.435 hzFlAnDamageFn.modAW.CombineAllComRes: DELETE FROM CmbRes in hzFlAnResults. Records Affected: 0
+2025-04-24 20:06:06.451 -04:00 [INF] 2025/04/24 20:06:06.451 hzFlAnDamageFn.modAW.CombineAllComRes: INSERT INTO CmbRes (Value_, Count_,BlkGrid,Reclass,ObjectID_1,CensusBlock) SELECT Value_,Count_,RAS5225 as BlkGrid,Reclass,ObjectID_1,CensusBlock FROM CmbRes1 Records Affected: 659
+2025-04-24 20:06:06.517 -04:00 [INF] 2025/04/24 20:06:06.517 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 67: Completed CombineAllComRes
+2025-04-24 20:06:06.524 -04:00 [INF] 2025/04/24 20:06:06.524 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 71: Executing LoadAWMDBDataToSQL...
+2025-04-24 20:06:06.528 -04:00 [INF] 2025/04/24 20:06:06.528 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Started LoadAWMDBDataToSQL at = 0 hazardType = lcRiverine
+2025-04-24 20:06:06.539 -04:00 [INF] 2025/04/24 20:06:06.539 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Dropped  flAnGBSCenBlk
+2025-04-24 20:06:06.545 -04:00 [INF] 2025/04/24 20:06:06.545 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Created  flAnGBSCenBlk
+2025-04-24 20:06:06.547 -04:00 [INF] 2025/04/24 20:06:06.547 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: flAnGBSCenBlk and {studyCasePath}{AwConstants.MDB_RESULTS} =C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults.mdb
+2025-04-24 20:06:06.557 -04:00 [INF] 2025/04/24 20:06:06.557 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Setting columns flAnGBSCenBlk
+2025-04-24 20:06:08.288 -04:00 [INF] 2025/04/24 20:06:08.288 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Populated 2158 rows into flAnGBSCenBlk
+2025-04-24 20:06:13.306 -04:00 [INF] 2025/04/24 20:06:13.306 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Dropped  flAnGBSCmbRes
+2025-04-24 20:06:13.320 -04:00 [INF] 2025/04/24 20:06:13.320 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Created  flAnGBSCmbRes
+2025-04-24 20:06:13.322 -04:00 [INF] 2025/04/24 20:06:13.322 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: flAnGBSCmbRes and {studyCasePath}{AwConstants.MDB_RESULTS} =C:\HazusData\Regions\Bartholomew_1\Bartholomew\hzFlAnResults.mdb
+2025-04-24 20:06:13.359 -04:00 [INF] 2025/04/24 20:06:13.359 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Setting columns  flAnGBSCmbRes, Actual RowCount=659
+2025-04-24 20:06:13.500 -04:00 [INF] 2025/04/24 20:06:13.500 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Populated 659 rows into flAnGBSCmbRes
+2025-04-24 20:06:18.515 -04:00 [INF] 2025/04/24 20:06:18.515 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Clear tempDB started...
+2025-04-24 20:06:18.727 -04:00 [INF] 2025/04/24 20:06:18.727 hzFlAnDamageFn.modAW.LoadAWMDBDataToSQL: Clear tempDB complete...
+2025-04-24 20:06:18.733 -04:00 [INF] 2025/04/24 20:06:18.733 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 71: Completed LoadAWMDBDataToSQL
+2025-04-24 20:06:18.738 -04:00 [INF] 2025/04/24 20:06:18.738 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 73: Executing UpdateMSDE...
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.790  absp_GBSInsertAW: '100', 0, 'R' --FYI @StudyRegion='C:\HazusData\Regions\Bartholomew_1\, @StudyCaseName='Bartholomew', @StudyCaseID=1
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.790  absp_GBSInsertAW: started
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.790  absp_GBSInsertAW: flAnGBSCmbRes (R) rows=659
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.790  absp_GBSInsertAW: flAnGBSCenBlk (CR) rows=2158
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.790  absp_GBSInsertAW: DEBUG: select CensusBlock, sum(PctAffected) PctAffected from flAnGBSCombineAWTemp group by CensusBlock order by sum(PctAffected) desc
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.790  absp_GBSInsertAW: DEBUG: select CensusBlock, ReClass, PctAffected from flAnGBSCombineAWTemp order by CensusBlock asc, ReClass asc
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.797  absp_GBSInsertAW: flAnGBSCombineAWTemp (R) rows=659
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.797  absp_GBSInsertAW: DEBUG: BEFORE DELETE: flAnAreaWeighted rows=0
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.797  absp_GBSInsertAW: DEBUG: AFTER DELETE, BEFORE insert: flAnAreaWeighted rows=0
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.803  absp_GBSInsertAW: DEBUG: AFTER insert: flAnAreaWeighted rows=161
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.803  absp_GBSInsertAW: SC: Bartholomew flAnAreaWeighted rows=161
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.810  absp_GBSInsertAW: update flAnAreaWeighted set ft100 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 100
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.813  absp_GBSInsertAW: update flAnAreaWeighted set ft1000 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1000
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.813  absp_GBSInsertAW: update flAnAreaWeighted set ft1050 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1050
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.817  absp_GBSInsertAW: update flAnAreaWeighted set ft1100 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1100
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.820  absp_GBSInsertAW: update flAnAreaWeighted set ft1150 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1150
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.823  absp_GBSInsertAW: update flAnAreaWeighted set ft1200 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1200
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.827  absp_GBSInsertAW: update flAnAreaWeighted set ft1250 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1250
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.830  absp_GBSInsertAW: update flAnAreaWeighted set ft1300 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1300
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.830  absp_GBSInsertAW: update flAnAreaWeighted set ft1350 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1350
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.833  absp_GBSInsertAW: update flAnAreaWeighted set ft1400 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1400
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.837  absp_GBSInsertAW: update flAnAreaWeighted set ft1450 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 1450
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.837  absp_GBSInsertAW: update flAnAreaWeighted set ft150 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 150
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.843  absp_GBSInsertAW: update flAnAreaWeighted set ft200 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 200
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.843  absp_GBSInsertAW: update flAnAreaWeighted set ft250 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 250
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.890  absp_GBSInsertAW: DEBUG: AFTER update: flAnAreaWeighted rows=161
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.890  absp_GBSInsertAW OK: executed in: 0 minutes
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.890  absp_GBSInsertAW: DEBUG: AFTER commit: flAnAreaWeighted rows=161
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.847  absp_GBSInsertAW: update flAnAreaWeighted set ft300 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 300
+2025-04-24 20:06:18.894 -04:00 [INF] 2025/04/24 20:06:18.850  absp_GBSInsertAW: update flAnAreaWeighted set ft350 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 350
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.853  absp_GBSInsertAW: update flAnAreaWeighted set ft400 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 400
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.857  absp_GBSInsertAW: update flAnAreaWeighted set ft450 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 450
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.860  absp_GBSInsertAW: update flAnAreaWeighted set ft50 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 50
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.863  absp_GBSInsertAW: update flAnAreaWeighted set ft500 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 500
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.863  absp_GBSInsertAW: update flAnAreaWeighted set ft550 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 550
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.867  absp_GBSInsertAW: update flAnAreaWeighted set ft600 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 600
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.870  absp_GBSInsertAW: update flAnAreaWeighted set ft650 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 650
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.873  absp_GBSInsertAW: update flAnAreaWeighted set ft700 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 700
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.877  absp_GBSInsertAW: update flAnAreaWeighted set ft750 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 750
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.877  absp_GBSInsertAW: update flAnAreaWeighted set ft800 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 800
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.880  absp_GBSInsertAW: update flAnAreaWeighted set ft850 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 850
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.883  absp_GBSInsertAW: update flAnAreaWeighted set ft900 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 900
+2025-04-24 20:06:18.896 -04:00 [INF] 2025/04/24 20:06:18.887  absp_GBSInsertAW: update flAnAreaWeighted set ft950 = t.PctAffected from flAnGBSCombineAWTemp t where flAnAreaWeighted.CensusBlock=t.CensusBlock and flAnAreaWeighted.CoastalZone=t.CoastalZone and flAnAreaWeighted.ControllingHazard=t.ControlHazard and flAnAreaWeighted.StudyCaseID = 1 and flAnAreaWeighted.ReturnPeriodID = '100' and flAnAreaWeighted.AnalysisOptID = 0     and t.Reclass = 950
+2025-04-24 20:06:18.900 -04:00 [INF] 2025/04/24 20:06:18.900 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 73: Completed UpdateMSDE
+2025-04-24 20:06:19.216 -04:00 [INF] 2025/04/24 20:06:19.216 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: at = 76: Done with Area Weighted calculations for RPD100
+2025-04-24 20:06:19.218 -04:00 [INF] 2025/04/24 20:06:19.218 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: Clear tempDB started...
+2025-04-24 20:06:19.226 -04:00 [INF] 2025/04/24 20:06:19.226 hzFlAnDamageFn.modAnalyseFlood.DefineFloodAnalyse: Clear tempDB complete...
+2025-04-24 20:06:19.231 -04:00 [INF] 2025/04/24 20:06:19.231 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis: Successfully completed DefineFloodAnalyse for RPD100
+2025-04-24 20:06:19.233 -04:00 [INF] 2025/04/24 20:06:19.233 hzFlAnDamageFn.modAnalyseFlood.RunAnalysis:    *** ALL DEPTH GRIDS OK ***
+2025-04-24 20:06:19.365 -04:00 [INF] 2025/04/24 20:06:19.365 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: Starting GBS analysis
+2025-04-24 20:06:19.419 -04:00 [INF] 2025/04/24 20:06:19.419 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: Show_Redo_Anal_Val = False
+2025-04-24 20:06:19.427 -04:00 [INF] 2025/04/24 20:06:19.427 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: ExistResults = Exist
+2025-04-24 20:06:23.595 -04:00 [INF] 2025/04/24 20:06:23.595 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: DeleteResultsResponse = vbYes
+2025-04-24 20:06:23.776 -04:00 [INF] 2025/04/24 20:06:23.773  absp_GBSReturnPeriods: @haztype=1, @StudyCaseId=1, @AnalysisOptID=0
+2025-04-24 20:06:23.776 -04:00 [INF] 2025/04/24 20:06:23.773  absp_GBSReturnPeriods: started
+2025-04-24 20:06:23.776 -04:00 [INF] 2025/04/24 20:06:23.773  absp_GBSReturnPeriods #RPs=1, #CBs=161, #CBs-per-batch=99999: executed in: 0 seconds
+2025-04-24 20:06:23.776 -04:00 [INF] 2025/04/24 20:06:23.773  absp_GBSReturnPeriods: finished OK 1 batch-to-run
+2025-04-24 20:06:23.782 -04:00 [INF] 2025/04/24 20:06:23.782 hzFlAnStockDmg.modAnBldgStock.AssignProcessCodes: @rc=1
+2025-04-24 20:06:23.786 -04:00 [INF] 2025/04/24 20:06:23.786 hzFlAnStockDmg.modAnBldgStock.InitFloodAnalysis: NumRun: 1
+2025-04-24 20:06:23.794 -04:00 [INF] 2025/04/24 20:06:23.794 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: RegionsPath=C:\HazusData\Regions\Bartholomew_1\
+2025-04-24 20:06:23.797 -04:00 [INF] 2025/04/24 20:06:23.797 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: StudyCaseName=Bartholomew
+2025-04-24 20:06:23.799 -04:00 [INF] 2025/04/24 20:06:23.799 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter AnalysisBits=15
+2025-04-24 20:06:23.802 -04:00 [INF] 2025/04/24 20:06:23.802 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter AnalysisOptID=0
+2025-04-24 20:06:23.804 -04:00 [INF] 2025/04/24 20:06:23.804 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter Debug=N
+2025-04-24 20:06:23.808 -04:00 [INF] 2025/04/24 20:06:23.808 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter haztype=1
+2025-04-24 20:06:23.834 -04:00 [INF] 2025/04/24 20:06:23.834 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: RegDivide=1
+2025-04-24 20:06:23.836 -04:00 [INF] 2025/04/24 20:06:23.836 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Parameter proccode=1
+2025-04-24 20:06:39.198 -04:00 [INF] 2025/04/24 20:06:23.863    -----------: ----------------------------------------------------------
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:23.863    StudyCaseID: 1                   GBS Analysis
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:23.863    -----------: ----------------------------------------------------------
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:23.873    absp_hdd_state: C drive has 572599 MB free space; tempdb is 159MB; templog is 8MB
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:23.873    absp_GBSDoIt: absp_GBSDoIt 15, 0, 'N', 1, 1
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:27.770  0.GBS Common: started
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:28.073    -----------: ----------------------------------------------------------
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:28.073      Registry : Settings.xml <DivideGBS> = 1, DebugGBS = N
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:28.073    -----------: ----------------------------------------------------------
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:28.090    absp_GBSBasePrep:: 
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:28.093    absp_GBSBasePrep:: There is/are 0 user defined SchemeID(s) being used in distribution table(s).
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:34.810    absp_GBSBasePrep:: 
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:34.863  : "BACKUP LOG is terminating abnormally."  Line: 1  No: 3013  Sev: 16  State: 1
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:35.867  0.GBS Common OK: executed in: 00 hour(s): 00 minute(s): 08 second(s).
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:35.873    absp_hdd_state: C drive has 572343 MB free space; tempdb is 159MB; templog is 264MB
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:35.873  1.GBS Building and Cont Damage: started
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:36.483  1.GBS Building and Cont Damage OK: executed in: 00 hour(s): 00 minute(s): 01 second(s).
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:36.483    absp_hdd_state: C drive has 572343 MB free space; tempdb is 159MB; templog is 264MB
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:36.483  2.GBS Economic Losses: started
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:38.250  2.GBS Economic Losses OK: executed in: 00 hour(s): 00 minute(s): 02 second(s).
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:38.250    absp_hdd_state: C drive has 572343 MB free space; tempdb is 159MB; templog is 264MB
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:38.253  4.GBS Count Damage: started
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:38.790  4.GBS Count Damage OK: executed in: 00 hour(s): 00 minute(s): 00 second(s).
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:38.793    absp_hdd_state: C drive has 572343 MB free space; tempdb is 159MB; templog is 264MB
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:38.793  8.GBS Depreciated Economic Loss: started
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:39.193  8.GBS Depreciated Economic Loss OK: executed in: 00 hour(s): 00 minute(s): 01 second(s).
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:39.193    absp_hdd_state: C drive has 572343 MB free space; tempdb is 159MB; templog is 264MB
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:39.193  9.GBS Clean up: 
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:39.193    absp_hdd_state: C drive has 572343 MB free space; tempdb is 159MB; templog is 264MB
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:39.193  ------------------------: -------------------------------------------------------------
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:39.197  GBS RUN:       COMPLETE : Completed in: 00 hour(s): 00 minute(s): 16 second(s). rc= 0
+2025-04-24 20:06:39.199 -04:00 [INF] 2025/04/24 20:06:39.197  ------------------------: -------------------------------------------------------------
+2025-04-24 20:06:39.216 -04:00 [INF] 2025/04/24 20:06:39.216 hzFlAnStockDmg.modAnBldgStock.CalculateBldgStockDmg: Done
+2025-04-24 20:06:39.420 -04:00 [INF] 2025/04/24 20:06:39.420 : ***********: **********************************************************
+2025-04-24 20:06:39.423 -04:00 [INF] 2025/04/24 20:06:39.423 : StudyCaseID: 1                     Essential Facilities
+2025-04-24 20:06:39.425 -04:00 [INF] 2025/04/24 20:06:39.425 : ***********: **********************************************************
+2025-04-24 20:06:39.461 -04:00 [INF] 2025/04/24 20:06:39.461 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-24 20:06:39.465 -04:00 [INF] 2025/04/24 20:06:39.465 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-24 20:06:39.468 -04:00 [INF] 2025/04/24 20:06:39.468 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-24 20:06:39.470 -04:00 [INF] 2025/04/24 20:06:39.470 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-24 20:06:39.473 -04:00 [INF] 2025/04/24 20:06:39.473 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-24 20:06:39.475 -04:00 [INF] 2025/04/24 20:06:39.475 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-24 20:06:43.517 -04:00 [INF] 2025/04/24 20:06:43.517 hzFlAnEFDmg.modAnEF.ValidateParms: Done...
+2025-04-24 20:06:44.229 -04:00 [INF] 2025/04/24 20:06:44.229 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Starting RunValidHazardCalc()...
+2025-04-24 20:06:44.843 -04:00 [INF] 2025/04/24 20:06:44.843 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** EMERGENCYCTR ***
+2025-04-24 20:06:44.847 -04:00 [INF] 2025/04/24 20:06:44.847 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:44.899 -04:00 [INF] 2025/04/24 20:06:44.899 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-24 20:06:44.901 -04:00 [INF] 2025/04/24 20:06:44.901 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:45.111 -04:00 [INF] 2025/04/24 20:06:45.111 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** FIRESTATION ***
+2025-04-24 20:06:45.113 -04:00 [INF] 2025/04/24 20:06:45.113 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:45.116 -04:00 [INF] 2025/04/24 20:06:45.116 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-24 20:06:45.118 -04:00 [INF] 2025/04/24 20:06:45.118 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:45.312 -04:00 [INF] 2025/04/24 20:06:45.312 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** CAREFLTY ***
+2025-04-24 20:06:45.314 -04:00 [INF] 2025/04/24 20:06:45.314 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:45.316 -04:00 [INF] 2025/04/24 20:06:45.316 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-24 20:06:45.319 -04:00 [INF] 2025/04/24 20:06:45.318 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:45.527 -04:00 [INF] 2025/04/24 20:06:45.527 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** POLICESTATION ***
+2025-04-24 20:06:45.531 -04:00 [INF] 2025/04/24 20:06:45.531 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:45.534 -04:00 [INF] 2025/04/24 20:06:45.534 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-24 20:06:45.536 -04:00 [INF] 2025/04/24 20:06:45.536 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:45.754 -04:00 [INF] 2025/04/24 20:06:45.754 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: *** SCHOOL ***
+2025-04-24 20:06:45.755 -04:00 [INF] 2025/04/24 20:06:45.755 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:45.760 -04:00 [INF] 2025/04/24 20:06:45.760 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: 0 facilities affected.
+2025-04-24 20:06:45.762 -04:00 [INF] 2025/04/24 20:06:45.762 hzFlAnEFDmg.modAnEF.DefineEFAnalyse: --------------------------
+2025-04-24 20:06:45.772 -04:00 [INF] 2025/04/24 20:06:45.772 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: RunValidHazardCalc() completed!
+2025-04-24 20:06:46.367 -04:00 [INF] 2025/04/24 20:06:46.367 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-24 20:06:46.389 -04:00 [INF] 2025/04/24 20:06:46.389 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFREmergencyCtr WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-24 20:06:46.392 -04:00 [INF] 2025/04/24 20:06:46.392 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFREmergencyCtr WHERE Active_ind = 'A'
+2025-04-24 20:06:46.621 -04:00 [INF] 2025/04/24 20:06:46.621 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-24 20:06:46.643 -04:00 [INF] 2025/04/24 20:06:46.643 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRFireStation WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-24 20:06:46.646 -04:00 [INF] 2025/04/24 20:06:46.646 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRFireStation WHERE Active_ind = 'A'
+2025-04-24 20:06:46.835 -04:00 [INF] 2025/04/24 20:06:46.835 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-24 20:06:46.857 -04:00 [INF] 2025/04/24 20:06:46.857 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRCareFlty WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-24 20:06:46.860 -04:00 [INF] 2025/04/24 20:06:46.860 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRCareFlty WHERE Active_ind = 'A'
+2025-04-24 20:06:47.051 -04:00 [INF] 2025/04/24 20:06:47.051 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-24 20:06:47.074 -04:00 [INF] 2025/04/24 20:06:47.074 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRPoliceStation WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-24 20:06:47.077 -04:00 [INF] 2025/04/24 20:06:47.077 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRPoliceStation WHERE Active_ind = 'A'
+2025-04-24 20:06:47.278 -04:00 [INF] 2025/04/24 20:06:47.278 hzFlAnEFDmg.modAnEF.InitFloodAnalysis: Upload SC, RP, AO Results
+2025-04-24 20:06:47.310 -04:00 [INF] 2025/04/24 20:06:47.310 hzFlAnEFDmg.modAnEF.UploadResults: DELETE flFRSchool WHERE StudyCaseID = '1'AND AnalysisOptID = '0'
+2025-04-24 20:06:47.314 -04:00 [INF] 2025/04/24 20:06:47.314 hzFlAnEFDmg.modAnEF.UploadResults: SELECT * FROM flFRSchool WHERE Active_ind = 'A'
+2025-04-24 20:06:47.455 -04:00 [INF] 2025/04/24 20:06:47.455 : ***********: **********************************************************
+2025-04-24 20:06:47.457 -04:00 [INF] 2025/04/24 20:06:47.457 : StudyCaseID: 1                  Transportation Systems
+2025-04-24 20:06:47.459 -04:00 [INF] 2025/04/24 20:06:47.459 : ***********: **********************************************************
+2025-04-24 20:06:47.461 -04:00 [INF] 2025/04/24 20:06:47.461 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-24 20:06:47.463 -04:00 [INF] 2025/04/24 20:06:47.463 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-24 20:06:47.466 -04:00 [INF] 2025/04/24 20:06:47.465 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-24 20:06:47.467 -04:00 [INF] 2025/04/24 20:06:47.467 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-24 20:06:47.469 -04:00 [INF] 2025/04/24 20:06:47.469 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-24 20:06:47.472 -04:00 [INF] 2025/04/24 20:06:47.472 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-24 20:06:47.513 -04:00 [INF] 2025/04/24 20:06:47.513 Module Trans(hzFlAnTransDmg.modAnTrans.RunAnalysis): +++ Running analysis for rpd100 - R +++
+2025-04-24 20:06:47.717 -04:00 [INF] 2025/04/24 20:06:47.717 Module Trans(hzFlAnTransDmg.modAnTrans.DefineTransAnalysis): After GetPointCol(hzHighwayBridge, HighwayBridgeID): colStrAllBridgeIDs.Count = 91
+2025-04-24 20:06:47.720 -04:00 [INF] 2025/04/24 20:06:47.720 Module Trans(hzFlAnTransDmg.modAnTrans.DefineTransAnalysis): After GetPointCol(hzRailwayBridge, RailwayBridgeID): colStrAllBridgeIDs.Count = 91
+2025-04-24 20:06:47.884 -04:00 [INF] 2025/04/24 20:06:47.884 Module Trans(hzFlAnTransDmg.modAnTrans.CalculateThat): Updated the flFRHighwayBridge table!
+2025-04-24 20:06:47.912 -04:00 [INF] 2025/04/24 20:06:47.912 Module Trans(hzFlAnTransDmg.modAnTrans.CalculateThat): Updated the flFRRailwayBridge table!
+2025-04-24 20:06:48.063 -04:00 [INF] 2025/04/24 20:06:48.063 : ***********: **********************************************************
+2025-04-24 20:06:48.065 -04:00 [INF] 2025/04/24 20:06:48.065 : StudyCaseID: 1                  Utility Systems
+2025-04-24 20:06:48.067 -04:00 [INF] 2025/04/24 20:06:48.067 : ***********: **********************************************************
+2025-04-24 20:06:48.070 -04:00 [INF] 2025/04/24 20:06:48.070 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-24 20:06:48.073 -04:00 [INF] 2025/04/24 20:06:48.073 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-24 20:06:48.075 -04:00 [INF] 2025/04/24 20:06:48.075 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-24 20:06:48.077 -04:00 [INF] 2025/04/24 20:06:48.077 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-24 20:06:48.081 -04:00 [INF] 2025/04/24 20:06:48.081 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-24 20:06:48.083 -04:00 [INF] 2025/04/24 20:06:48.083 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-24 20:06:50.821 -04:00 [INF] 2025/04/24 20:06:50.821 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.ValidateParmsA): Done...
+2025-04-24 20:06:51.325 -04:00 [INF] 2025/04/24 20:06:51.325 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** POTABLEWATERFLTY ***
+2025-04-24 20:06:51.328 -04:00 [INF] 2025/04/24 20:06:51.328 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-24 20:06:51.330 -04:00 [INF] 2025/04/24 20:06:51.330 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 0 utilities affected.
+2025-04-24 20:06:51.332 -04:00 [INF] 2025/04/24 20:06:51.332 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-24 20:06:51.537 -04:00 [INF] 2025/04/24 20:06:51.537 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): *** WASTEWATERFLTY ***
+2025-04-24 20:06:51.540 -04:00 [INF] 2025/04/24 20:06:51.540 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-24 20:06:51.573 -04:00 [INF] 2025/04/24 20:06:51.573 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): FacilityID: IN000217
+2025/04/24 20:06:51.573 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      UtilityClass: WDFLT
+2025/04/24 20:06:51.573 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Damage%: 9.591186
+2025/04/24 20:06:51.573 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Loss: 12883.638738894
+2025-04-24 20:06:51.575 -04:00 [INF] 2025/04/24 20:06:51.575 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-24 20:06:51.612 -04:00 [INF] 2025/04/24 20:06:51.612 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): FacilityID: IN000312
+2025/04/24 20:06:51.612 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      UtilityClass: WDFLT
+2025/04/24 20:06:51.612 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Damage%: 18.486814
+2025/04/24 20:06:51.612 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Loss: 24832.949023106
+2025-04-24 20:06:51.614 -04:00 [INF] 2025/04/24 20:06:51.614 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-24 20:06:51.631 -04:00 [INF] 2025/04/24 20:06:51.631 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): FacilityID: IN000468
+2025/04/24 20:06:51.631 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      UtilityClass: WDFLT
+2025/04/24 20:06:51.631 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Damage%: 28.517946
+2025/04/24 20:06:51.631 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 						      Loss: 38307.557984934
+2025-04-24 20:06:51.633 -04:00 [INF] 2025/04/24 20:06:51.633 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-24 20:06:51.636 -04:00 [INF] 2025/04/24 20:06:51.636 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): 3 utilities affected.
+2025-04-24 20:06:51.639 -04:00 [INF] 2025/04/24 20:06:51.639 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.DefineUtilAnalyse): --------------------------
+2025-04-24 20:06:52.030 -04:00 [INF] 2025/04/24 20:06:52.030 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 0
+2025-04-24 20:06:52.450 -04:00 [INF] 2025/04/24 20:06:52.450 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.UploadResults): Number of records to copy: 3
+2025-04-24 20:06:52.531 -04:00 [INF] 2025/04/24 20:06:52.531 Module hzFlAnUtilDmglauncher(hzFlAnUtilDmg.modAnUtil.InitFloodAnalysis): Done...
+2025-04-24 20:06:52.675 -04:00 [INF] 2025/04/24 20:06:52.675 : ***********: **********************************************************
+2025-04-24 20:06:52.678 -04:00 [INF] 2025/04/24 20:06:52.678 : StudyCaseID: 1                         Debris
+2025-04-24 20:06:52.682 -04:00 [INF] 2025/04/24 20:06:52.682 : ***********: **********************************************************
+2025-04-24 20:06:52.684 -04:00 [INF] 2025/04/24 20:06:52.684 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyRegion Name = Bartholomew_1
+2025-04-24 20:06:52.687 -04:00 [INF] 2025/04/24 20:06:52.687 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): StudyCase Name = Bartholomew
+2025-04-24 20:06:52.690 -04:00 [INF] 2025/04/24 20:06:52.690 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): HAZUS Version = 17.1.0
+2025-04-24 20:06:52.693 -04:00 [INF] 2025/04/24 20:06:52.693 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS Version = 10.8.28388
+2025-04-24 20:06:52.697 -04:00 [INF] 2025/04/24 20:06:52.697 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): ArcGIS ServicePack Number = 
+2025-04-24 20:06:52.701 -04:00 [INF] 2025/04/24 20:06:52.701 Module Common Const And Codes(hzFlCommon.modCommonConstAndCodes.LogGeneralInfo): hzFlCommon.dll date = 8/13/2024 7:38:15 AM
+2025-04-24 20:06:55.625 -04:00 [INF] 2025/04/24 20:06:55.620  absp_GBSReturnPeriods: @haztype=1, @StudyCaseId=1, @AnalysisOptID=0
+2025-04-24 20:06:55.625 -04:00 [INF] 2025/04/24 20:06:55.623  absp_GBSReturnPeriods: started
+2025-04-24 20:06:55.625 -04:00 [INF] 2025/04/24 20:06:55.623  absp_GBSReturnPeriods #RPs=1, #CBs=161, #CBs-per-batch=99999: executed in: 0 seconds
+2025-04-24 20:06:55.625 -04:00 [INF] 2025/04/24 20:06:55.623  absp_GBSReturnPeriods: finished OK 1 batch-to-run
+2025-04-24 20:06:57.884 -04:00 [INF] 2025/04/24 20:06:55.697  absp_DebrisDoIt: 
+2025-04-24 20:06:57.884 -04:00 [INF] 2025/04/24 20:06:55.697   absp_Debris: 
+2025-04-24 20:06:57.884 -04:00 [INF] 2025/04/24 20:06:55.697  Debris Analysis Block: started
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:55.820   absp_DebrisYearBuilt rc = 0: executed in: 0 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:55.893   absp_DebrisSchemeSOccup rc = 0: executed in: 0 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:55.953   absp_DebrisSOccupCLR rc = 0: executed in: 0 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:56.167   absp_DebrisYearBuiltReduced rc = 0: executed in: 1 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:56.240   absp_DebrisBaseTabT rc = 0: executed in: 0 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:56.260   absp_DebrisflDepth rc = 0: executed in: 0 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:56.393   absp_DebrisPreDmg rc = 0: executed in: 0 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:56.653   absp_DebrisPostDmg rc = 0: executed in: 0 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:56.793   absp_DebrisPreFSF rc = 0: executed in: 0 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:57.067   absp_DebrisPostFSF rc = 0: executed in: 1 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:57.880   absp_DebrisFinal rc = 0: executed in: 0 seconds
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:57.880   absp_Debris: 
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:57.880  Debris Clean up: started
+2025-04-24 20:06:57.885 -04:00 [INF] 2025/04/24 20:06:57.880  absp_DebrisDoIt rc = 0: Completed in: 0 minutes
